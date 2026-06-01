@@ -5,14 +5,15 @@
 #   ./deploy.sh              # Deploy/update everything
 #   ./deploy.sh --infra-only # Only deploy Bicep infrastructure
 #   ./deploy.sh --code-only  # Only deploy function code
+#   ./deploy.sh --code-zip   # Deploy code via ZIP (fallback if func CLI OOMs)
 #
 # Prerequisites:
 #   - Azure CLI logged in (az login)
-#   - Azure Functions Core Tools v4 (func)
+#   - Azure Functions Core Tools v4 (func) — optional, use --code-zip if unavailable
 #   - Python 3.11+ with venv
 
 set -euo pipefail
-cd "$(dirname "$0")/.."
+cd "$(dirname "$0")"
 
 RG="rg-news-aggregator"
 LOCATION="southafricanorth"
@@ -40,33 +41,71 @@ deploy_infra() {
     # Show outputs
     echo ""
     echo "--- Deployment outputs ---"
+    DEPLOY_NAME=$(az deployment group list --resource-group "$RG" --query "[0].name" -o tsv)
     az deployment group show \
         --resource-group "$RG" \
-        --name "$(az deployment group list --resource-group "$RG" --query "[0].name" -o tsv)" \
+        --name "$DEPLOY_NAME" \
         --query "properties.outputs" -o json 2>/dev/null | python3 -m json.tool || true
 
     echo "Infrastructure deployed."
 }
 
-# ── Function code ───────────────────────────────────────────────────────────
+# ── Function code (func CLI) ────────────────────────────────────────────────
 
 deploy_code() {
     echo ""
-    echo ">>> Deploying function code..."
+    echo ">>> Deploying function code (func CLI)..."
 
     # Ensure venv is active
     if [ ! -d ".venv" ]; then
-        python3.11 -m venv .venv
+        python3 -m venv .venv
     fi
-    source .venv/bin/activate
-    pip install -q -r requirements.txt
+    source .venv/bin/activate 2>/dev/null || true
+    pip install -q -r requirements.txt 2>/dev/null || true
 
     # Publish to Azure
     func azure functionapp publish "$FUNC_APP" --python
 
     echo ""
+    verify_health
+}
+
+# ── Function code (ZIP deploy via Azure CLI) ────────────────────────────────
+
+deploy_code_zip() {
+    echo ""
+    echo ">>> Deploying function code (ZIP deploy)..."
+
+    ZIP_FILE="/tmp/func-deploy-$(date +%s).zip"
+
+    # Create ZIP with correct structure: function dirs at root + src/ + host.json + feeds.json + requirements.txt
+    cd "$(dirname "$0")"
+    zip -r "$ZIP_FILE" \
+        RSSFetcher/ HealthEndpoint/ ArticleProcessor/ \
+        src/ feeds.json host.json requirements.txt \
+        -x '*/__pycache__/*' '*.pyc' '.venv/*' '.git/*' 2>/dev/null
+
+    # Deploy ZIP to Function App
+    az functionapp deployment source config-zip \
+        --resource-group "$RG" \
+        --name "$FUNC_APP" \
+        --src "$ZIP_FILE"
+
+    rm -f "$ZIP_FILE"
+    echo "ZIP deployed."
+
+    # Restart to pick up changes
+    az functionapp restart --name "$FUNC_APP" --resource-group "$RG" 2>/dev/null || true
+
+    verify_health
+}
+
+# ── Health verification ─────────────────────────────────────────────────────
+
+verify_health() {
+    echo ""
     echo "--- Verifying health endpoint ---"
-    sleep 5  # allow cold start
+    sleep 10  # allow cold start after deploy
     HEALTH_URL="https://${FUNC_APP}.azurewebsites.net/api/health"
 
     for i in 1 2 3 4 5; do
@@ -74,13 +113,13 @@ deploy_code() {
         echo "  Attempt $i: HTTP $STATUS"
         if [ "$STATUS" = "200" ]; then
             echo ""
-            echo "✅ Function App is running"
+            echo "Function App is running"
             curl -s "$HEALTH_URL" | python3 -m json.tool
             return 0
         fi
         sleep 5
     done
-    echo "⚠️  Health check returned non-200 after 5 attempts"
+    echo "Health check returned non-200 after 5 attempts"
     return 1
 }
 
@@ -93,9 +132,17 @@ case "${1:-}" in
     --code-only)
         deploy_code
         ;;
+    --code-zip)
+        deploy_code_zip
+        ;;
     *)
         deploy_infra
-        deploy_code
+        # Try func CLI first, fall back to ZIP deploy
+        if command -v func &>/dev/null && func --version &>/dev/null 2>&1; then
+            deploy_code || deploy_code_zip
+        else
+            deploy_code_zip
+        fi
         ;;
 esac
 

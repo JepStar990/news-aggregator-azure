@@ -1,6 +1,6 @@
 # News Aggregator Azure
 
-> **Azure-native, serverless RSS news aggregation pipeline** — zero-VM, consumption-based migration from the self-hosted Kafka/Docker architecture.
+> **Azure-native, serverless RSS news aggregation pipeline** — consumption-based migration from the self-hosted Kafka/Docker architecture.
 
 [![Azure Functions](https://img.shields.io/badge/Azure-Functions-0062AD?logo=microsoftazure)](https://azure.microsoft.com/en-us/services/functions/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
@@ -59,48 +59,47 @@ flowchart TB
 
 Compare to ~$25–50/mo for a VM running Kafka, Zookeeper, Prometheus, Grafana 24/7.
 
-## Repo Structure (planned)
+## Repo Structure
 
 ```
 news-aggregator-azure/
 ├── README.md
-├── docs/
-│   ├── architecture.md
-│   ├── migration-guide.md
-│   ├── cost-analysis.md
-│   ├── deployment.md
-│   ├── components.md
-│   └── development.md
+├── RSSFetcher/                         ← TimerTrigger (top-level, required by AF Linux)
+│   ├── __init__.py
+│   └── function.json
+├── HealthEndpoint/                     ← HTTPTrigger (top-level)
+│   ├── __init__.py
+│   └── function.json
+├── ArticleProcessor/                   ← QueueTrigger (top-level)
+│   ├── __init__.py
+│   └── function.json
 ├── src/
-│   ├── functions/
-│   │   ├── RSSFetcher/
-│   │   │   ├── __init__.py          ← TimerTrigger entry point
-│   │   │   ├── function.json
-│   │   │   └── rss_fetcher.py
-│   │   ├── HealthEndpoint/
-│   │   │   ├── __init__.py          ← HTTPTrigger entry point
-│   │   │   └── function.json
-│   │   └── ArticleProcessor/
-│   │       ├── __init__.py          ← QueueTrigger entry point
-│   │       └── function.json
+│   ├── config.py                       ← env-based configuration
+│   ├── feed_manager.py                 ← loads feeds.json
+│   ├── validator.py                    ← article validation rules
+│   ├── logging_config.py               ← JSON-structured logging
+│   ├── functions/                      ← implementation modules (imported by top-level wrappers)
+│   │   ├── RSSFetcher/__init__.py
+│   │   ├── HealthEndpoint/__init__.py
+│   │   └── ArticleProcessor/__init__.py
 │   ├── publishers/
-│   │   └── queue_publisher.py       ← Queue Storage replacement for Kafka
-│   ├── storage/
-│   │   ├── blob_manager.py          ← Blob Storage replacement for disk
-│   │   └── table_manager.py         ← Table Storage for article index
-│   ├── validator.py                 ← ported from original
-│   ├── config.py                    ← Key Vault references
-│   └── feed_manager.py              ← same as original
-├── feeds.json                       ← 800+ feed definitions
-├── host.json                        ← Functions runtime config
+│   │   └── queue_publisher.py          ← Queue Storage replacement for Kafka
+│   └── storage/
+│       ├── blob_manager.py             ← Blob Storage replacement for disk
+│       └── table_manager.py            ← Table Storage for article index
+├── feeds.json                          ← 800+ feed definitions
+├── host.json                           ← Functions runtime config + extensionBundle
 ├── local.settings.json.example
 ├── requirements.txt
-├── .github/
-│   └── workflows/
-│       └── deploy.yml
-└── infra/                           ← optional: Bicep/Terraform
-    └── main.bicep
+├── deploy.sh                           ← one-command deploy
+├── teardown.sh                         ← one-command teardown
+├── .github/workflows/deploy.yml        ← CI/CD pipeline
+└── infra/main.bicep                    ← ARM/Bicep infrastructure
 ```
+
+> **Why top-level function directories?** Azure Functions Python on Linux requires each function's
+> `function.json` to be in a direct subdirectory of the project root. The top-level `__init__.py`
+> files import their implementation from `src/functions/`.
 
 ## Quick Start (local dev)
 
@@ -116,7 +115,7 @@ cd news-aggregator-azure
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 
-# Start Azurite (local Azure Storage emulator) with API version workaround
+# Start Azurite (local Azure Storage emulator)
 azurite --silent --location ~/.azurite --skipApiVersionCheck &
 
 # Run tests
@@ -124,34 +123,76 @@ cp local.settings.json.example local.settings.json
 export STORAGE_CONNECTION_STRING="DefaultEndpointsProtocol=http;AccountName=devstoreaccount1;AccountKey=Eby8vdM02xNOcqFlqUwJPLlmEtlCDXJ1OUzFT50uSRZ6IFsuFq2UVErCz4I6tq/K1SZFPTOtr/KBHBeksoGMGw==;BlobEndpoint=http://127.0.0.1:10000/devstoreaccount1;QueueEndpoint=http://127.0.0.1:10001/devstoreaccount1;TableEndpoint=http://127.0.0.1:10002/devstoreaccount1"
 python -m pytest tests/ -v
 
-# Or start the functions runtime
+# Start the functions runtime locally
 func start
 ```
 
 ## Production Deployment
 
-```bash
-# Deploy infrastructure
-az deployment group create \
-  --resource-group rg-news-aggregator \
-  --template-file infra/main.bicep
+### One-command deploy
 
-# Deploy function code
-func azure functionapp publish func-newsaggregator
+```bash
+./deploy.sh
 ```
 
-## Migration from Original Pipeline
+This runs:
+1. **Infrastructure**: deploys Bicep template → creates Storage (Blob/Queue/Table), Function App (Linux Consumption), App Insights
+2. **Code**: publishes functions via `func azure functionapp publish`
 
-See the full step-by-step guide in [docs/migration-guide.md](docs/migration-guide.md).
+### Manual deployment steps
 
-**Summary:**
-1. Extract RSS fetcher core → Functions timer trigger
-2. Swap `KafkaPublisher` → `QueuePublisher` (same interface)
-3. Swap `StorageManager` → `BlobManager` (same interface)
-4. Drop APScheduler → `function.json` CRON binding
-5. Drop FastAPI/Uvicorn → HTTP-triggered Function
-6. Add Application Insights via `host.json`
-7. Deploy via GitHub Actions + `Azure/functions-action`
+**Step 1: Infrastructure (Bicep)**
+
+```bash
+az group create --name rg-news-aggregator --location southafricanorth
+az deployment group create \
+  --resource-group rg-news-aggregator \
+  --template-file infra/main.bicep \
+  --parameters appName=newsaggregator
+```
+
+**Step 2: Deploy function code**
+
+```bash
+# Requires Azure Functions Core Tools v4
+func azure functionapp publish func-newsaggregator --python
+```
+
+> **Note**: If `func` CLI runs out of memory locally, deploy from an Azure VM or use GitHub Actions.
+
+**Step 3: Verify**
+
+```bash
+curl https://func-newsaggregator.azurewebsites.net/api/health
+# {"status": "healthy", "timestamp": "...", "service": "news-aggregator-azure", "version": "1.0.0"}
+```
+
+### GitHub Actions CI/CD
+
+Push to `main` triggers `.github/workflows/deploy.yml` which runs:
+- Unit tests + integration tests (Azurite)
+- Infrastructure validation (Bicep what-if)
+- Function code deployment
+- Smoke test (health endpoint)
+
+## Tearing Down
+
+```bash
+./teardown.sh         # Interactive (prompts for confirmation)
+./teardown.sh --force # Non-interactive, deletes everything
+```
+
+This deletes the entire `rg-news-aggregator` resource group and all resources within it.
+
+## Redeploying From Scratch
+
+```bash
+git clone https://github.com/JepStar990/news-aggregator-azure.git
+cd news-aggregator-azure
+./deploy.sh
+```
+
+Everything is self-contained — no manual configuration needed beyond Azure CLI login (`az login`).
 
 ## License
 
