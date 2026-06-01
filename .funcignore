@@ -1,0 +1,14 @@
+.git*
+.vscode
+.venv
+venv
+__pycache__
+*.pyc
+tests
+docs
+infra
+README.md
+.gitignore
+.funcignore
+local.settings.json
+*.example

@@ -1,0 +1,5114 @@
+[
+  {
+    "name": "TechCrunch",
+    "url": "http://feeds.feedburner.com/TechCrunch/",
+    "interval": 120,
+    "priority": "high",
+    "error_count": 0,
+    "last_updated": "2025-05-13T09:31:34.964967"
+  },
+  {
+    "name": "US General - ABC News",
+    "url": "http://feeds.abcnews.com/abcnews/usheadlines",
+    "interval": 120,
+    "priority": "high"
+  },
+  {
+    "name": "US General - CNN Top Stories (alt)",
+    "url": "http://rss.cnn.com/rss/cnn_topstories.rss",
+    "interval": 120,
+    "priority": "high"
+  },
+  {
+    "name": "US General - CBS News",
+    "url": "http://www.cbsnews.com/latest/rss/main",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US General - NY Times National",
+    "url": "http://www.nytimes.com/services/xml/rss/nyt/National.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US General - WSJ US News",
+    "url": "http://online.wsj.com/xml/rss/3_7085.xml",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-05-13T09:36:22.044734"
+  },
+  {
+    "name": "US General - USA Today",
+    "url": "http://content.usatoday.com/marketing/rss/rsstrans.aspx?feedId=news2",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US General - CS Monitor",
+    "url": "http://rss.csmonitor.com/feeds/usa",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US General - NBC Top Stories",
+    "url": "http://feeds.nbcnews.com/feeds/topstories",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US General - NBC World News",
+    "url": "http://feeds.nbcnews.com/feeds/worldnews",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US General - AP US Heads",
+    "url": "http://hosted.ap.org/lineups/USHEADS.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US General - AP World Heads",
+    "url": "http://hosted.ap.org/lineups/WORLDHEADS.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US General - HuffPost World",
+    "url": "http://www.huffingtonpost.com/feeds/verticals/world/index.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US General - BBC US & Canada",
+    "url": "http://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US General - Yahoo US",
+    "url": "http://news.yahoo.com/rss/us",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US General - Yahoo World",
+    "url": "http://rss.news.yahoo.com/rss/world",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US General - Newsweek",
+    "url": "http://www.newsweek.com/rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US General - Daily Beast",
+    "url": "http://feeds.feedburner.com/thedailybeast/articles",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US General - Quartz",
+    "url": "http://qz.com/feed",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US General - Guardian USA",
+    "url": "http://www.theguardian.com/world/usa/rss",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-05-10T14:48:49.120622"
+  },
+  {
+    "name": "US General - Politico Picks",
+    "url": "http://www.politico.com/rss/politicopicks.xml",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:15.672329"
+  },
+  {
+    "name": "US General - New Yorker News",
+    "url": "http://www.newyorker.com/feed/news",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US General - PBS Nation",
+    "url": "http://feeds.feedburner.com/NationPBSNewsHour",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-05-10T14:48:51.909226"
+  },
+  {
+    "name": "US General - PBS World",
+    "url": "http://feeds.feedburner.com/NewshourWorld",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US General - US News",
+    "url": "http://www.usnews.com/rss/news",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US General - NPR National",
+    "url": "http://www.npr.org/rss/rss.php?id=1003",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US General - NPR World",
+    "url": "http://www.npr.org/rss/rss.php?id=1004",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US General - Atlantic National",
+    "url": "http://feeds.feedburner.com/AtlanticNational",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US General - Atlantic Wire",
+    "url": "http://feeds.feedburner.com/TheAtlanticWire",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US General - LA Times Nation",
+    "url": "http://www.latimes.com/nation/rss2.0.xml",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-05-13T09:36:22.297355"
+  },
+  {
+    "name": "US General - LA Times World",
+    "url": "http://www.latimes.com/world/rss2.0.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US General - Breaking News API",
+    "url": "http://api.breakingnews.com/api/v1/item/?format=rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US General - Vice News",
+    "url": "https://news.vice.com/rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US General - TPM Livewire",
+    "url": "http://talkingpointsmemo.com/feed/livewire",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US General - Salon News",
+    "url": "http://www.salon.com/category/news/feed/rss/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US General - Time Newsfeed",
+    "url": "http://time.com/newsfeed/feed/",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:33.794501"
+  },
+  {
+    "name": "US General - Fox News Latest",
+    "url": "http://feeds.foxnews.com/foxnews/latest?format=xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US General - Mashable US World",
+    "url": "http://mashable.com/us-world/rss/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Politics - Politico Magazine",
+    "url": "http://www.politico.com/rss/magazine.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Politics - Politico Blogs",
+    "url": "http://www.politico.com/rss/Top10Blogs.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Politics - HuffPost Politics",
+    "url": "http://www.huffingtonpost.com/feeds/verticals/politics/index.xml",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:30.443746"
+  },
+  {
+    "name": "US Politics - CNN All Politics",
+    "url": "http://rss.cnn.com/rss/cnn_allpolitics.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Politics - BuzzFeed Politics",
+    "url": "http://www.buzzfeed.com/politics.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Politics - NBC Politics",
+    "url": "http://feeds.nbcnews.com/feeds/nbcpolitics",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-05-10T14:48:52.524627"
+  },
+  {
+    "name": "US Politics - Fox News",
+    "url": "http://feeds.foxnews.com/foxnews/politics",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Politics - Washington Post Election 2012",
+    "url": "http://feeds.washingtonpost.com/rss/rss_election-2012",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Politics - NYT Politics",
+    "url": "http://rss.nytimes.com/services/xml/rss/nyt/Politics.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Politics - NYT Upshot",
+    "url": "http://rss.nytimes.com/services/xml/rss/nyt/Upshot.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Politics - NYT Caucus Blog",
+    "url": "http://thecaucus.blogs.nytimes.com/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Politics - WSJ Wash Wire",
+    "url": "http://blogs.wsj.com/washwire/feed/?mod=WSJ_Politics%2520and%2520Policy",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:28.207032"
+  },
+  {
+    "name": "US Politics - Reddit",
+    "url": "http://www.reddit.com/r/politics/.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Politics - DailyKos",
+    "url": "http://feeds.dailykos.com/dailykos/index.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Politics - NPR Politics",
+    "url": "http://www.npr.org/rss/rss.php?id=1014",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Politics - NPR Gov",
+    "url": "http://www.npr.org/rss/rss.php?id=5",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Politics - Roll Call All News",
+    "url": "http://www.rollcall.com/rss/all_news.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Politics - Roll Call News",
+    "url": "http://www.rollcall.com/news/?zkDo=showRSS",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Politics - Roll Call Politics",
+    "url": "http://www.rollcall.com/politics/archives/?zkDo=showRSS",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Politics - Roll Call Policy",
+    "url": "http://www.rollcall.com/policy/archives/?zkDo=showRSS",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Politics - National Journal",
+    "url": "http://www.nationaljournal.com/?rss=1",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Politics - National Journal WH",
+    "url": "http://www.nationaljournal.com/white-house?rss=1",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Politics - National Journal Congress",
+    "url": "http://www.nationaljournal.com/congress?rss=1",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:23.224144"
+  },
+  {
+    "name": "US Politics - National Journal Politics",
+    "url": "http://www.nationaljournal.com/politics?rss=1",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Politics - National Journal Connection",
+    "url": "http://www.nationaljournal.com/congressional-connection?rss=1",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Politics - The Nation Articles",
+    "url": "http://www.thenation.com/rss/articles",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Politics - The Nation Politics Blog",
+    "url": "http://www.thenation.com/blogs/rss/politics",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:27.965155"
+  },
+  {
+    "name": "US Politics - The Nation Foreign Reporting",
+    "url": "http://www.thenation.com/blogs/rss/foreign-reporting",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Politics - Washington Times Politics",
+    "url": "http://www.washingtontimes.com/rss/headlines/news/politics/",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-05-13T09:36:22.941557"
+  },
+  {
+    "name": "US Politics - RealClearPolitics",
+    "url": "http://feeds.feedburner.com/realclearpolitics/qlMj",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Politics - Breitbart",
+    "url": "http://feeds.feedburner.com/BreitbartFeed",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-05-13T09:36:21.404296"
+  },
+  {
+    "name": "US Politics - Daily Caller",
+    "url": "http://dailycaller.com/section/politics/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Politics - National Review",
+    "url": "https://www.nationalreview.com/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Politics - Drudge Report",
+    "url": "http://feeds.feedburner.com/DrudgeReportFeed",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Politics - Weekly Standard",
+    "url": "http://www.weeklystandard.com/rss/site.xml",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:42.719179"
+  },
+  {
+    "name": "US Politics - US News Whispers",
+    "url": "http://www.usnews.com/blogrss/washington-whispers",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Politics - US News Ken Walsh",
+    "url": "http://www.usnews.com/blogrss/Ken-Walshs-Washington",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Politics - US News Ballot 2014",
+    "url": "http://www.usnews.com/blogrss/ballot-2014",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Politics - Slate Politics",
+    "url": "http://feeds.slate.com/slate-101526",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Politics - Mother Jones",
+    "url": "http://feeds.feedburner.com/motherjones/Politics",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:16.886909"
+  },
+  {
+    "name": "US Politics - New Republic",
+    "url": "http://www.newrepublic.com/taxonomy/term/17538/feed",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Politics - FiveThirtyEight",
+    "url": "http://fivethirtyeight.com/politics/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Politics - RedState",
+    "url": "http://www.redstate.com/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Politics - Human Events",
+    "url": "http://humanevents.com/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Politics - Twitchy",
+    "url": "http://twitchy.com/category/us-politics/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Business - Business Standard Latest",
+    "url": "http://www.business-standard.com/rss/latest.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Business - Business Standard Top Stories",
+    "url": "http://www.business-standard.com/rss/home_page_top_stories.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Business - Harvard Business",
+    "url": "http://feeds.harvardbusiness.org/harvardbusiness?format=xml",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-05-13T09:36:20.779297"
+  },
+  {
+    "name": "US Business - IBTimes AU",
+    "url": "http://au.ibtimes.com/rss/articles/region/1.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Business - Businessweek Search",
+    "url": "http://www.businessweek.com/search/rssfeed.htm",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Business - Huffington Post Business",
+    "url": "http://www.huffingtonpost.com/feeds/verticals/business/news.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Business - FT US",
+    "url": "http://www.ft.com/rss/home/us",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Business - CNN Business",
+    "url": "http://rss.cnn.com/rss/edition_business.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Business - Bloomberg Law Podcast",
+    "url": "http://www.bloomberg.com/feed/podcast/law.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Health - Harvard Health",
+    "url": "http://www.health.harvard.edu/rss.php",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Health - Health.com Healthy & Happy",
+    "url": "http://www.health.com/health/healthy-happy/feed",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Health - CNN Health",
+    "url": "http://rss.cnn.com/rss/cnn_health.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Health - NYT Health",
+    "url": "http://www.nytimes.com/services/xml/rss/nyt/Health.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Health - Forbes Health",
+    "url": "http://www.forbes.com/health/feed2/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Health - BBC Health US",
+    "url": "http://feeds.bbci.co.uk/news/health/rss.xml?edition=us",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Health - ABC News Health Headlines",
+    "url": "http://feeds.abcnews.com/abcnews/healthheadlines",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Health - NBC News Health",
+    "url": "http://feeds.nbcnews.com/feeds/health",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Health - Chicago Tribune Health",
+    "url": "http://www.chicagotribune.com/lifestyles/health/rss2.0.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Health - Huffington Post Health",
+    "url": "http://feeds.huffingtonpost.com/c/35496/f/677071/index.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Health - The Guardian Health",
+    "url": "http://www.theguardian.com/society/health/rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Health - NY Daily News Health",
+    "url": "http://www.nydailynews.com/lifestyle/health/index_rss.xml",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:40.588500"
+  },
+  {
+    "name": "US Health - Men's Health",
+    "url": "http://www.menshealth.com/events-promotions/washpofeed",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Health - Glamour Health & Fitness",
+    "url": "http://feeds.glamour.com/glamour/health_fitness",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Health - New Scientist Health",
+    "url": "http://feeds.newscientist.com/health",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Health - Time Health",
+    "url": "http://time.com/health/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Health - AP Health",
+    "url": "http://hosted2.ap.org/atom/APDEFAULT/bbd825583c8542898e6fa7d440b9febc",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:37.628967"
+  },
+  {
+    "name": "US Health - Women's Health & Fitness",
+    "url": "http://www.womenshealthandfitness.com.au/component/obrss/women-s-health-fitnesscombined-feed",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Health - US News Health",
+    "url": "http://www.usnews.com/rss/health?int=a7fe09",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Health - Yahoo Health",
+    "url": "http://news.yahoo.com/rss/health",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Health - WSJ Health",
+    "url": "http://www.wsj.com/xml/rss/3_7201.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Health - Healthcare IT News",
+    "url": "http://www.healthcareitnews.com/home/feed",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Health - Modern Healthcare",
+    "url": "http://www.modernhealthcare.com/section/rss01&mime=xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Health - Mayo Clinic Health",
+    "url": "http://www.mayoclinic.org/rss/all-health-information-topics",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:18.378712"
+  },
+  {
+    "name": "US Health - ScienceDaily Health",
+    "url": "http://feeds.sciencedaily.com/sciencedaily/top_news/top_health",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Health - Kaiser Health News",
+    "url": "http://khn.org/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Health - Food Safety News",
+    "url": "http://feeds.lexblog.com/foodsafetynews/mRcs",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Health - Washington Post Lifestyle",
+    "url": "http://feeds.washingtonpost.com/rss/lifestyle",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Health - BuzzFeed Health",
+    "url": "http://www.buzzfeed.com/health.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Health - Lifehacker Vitals",
+    "url": "http://vitals.lifehacker.com/rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Health - Self Fitness News",
+    "url": "http://www.self.com/feed/fitness-news/",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-05-10T14:48:49.613889"
+  },
+  {
+    "name": "US Health - Huffington Post Fitness",
+    "url": "http://feeds.huffingtonpost.com/c/35496/f/677070/index.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Health - CPSC Recalls",
+    "url": "http://www.cpsc.gov/en/Newsroom/CPSC-RSS-Feed/Recalls-RSS/",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:25.775935"
+  },
+  {
+    "name": "US Health - MedPage Today Headlines",
+    "url": "http://www.medpagetoday.com/rss/Headlines.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Health - Medscape Health",
+    "url": "http://www.medscape.com/cx/rssfeeds/2700.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Health - NYT Health",
+    "url": "http://rss.nytimes.com/services/xml/rss/nyt/Health.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Health - The Guardian Health & Wellbeing",
+    "url": "http://www.theguardian.com/lifeandstyle/health-and-wellbeing/rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Health - Medical News Today Featured News",
+    "url": "http://rss.medicalnewstoday.com/featurednews.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Health - NPR Health",
+    "url": "http://www.npr.org/rss/rss.php?id=1128",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:25.306515"
+  },
+  {
+    "name": "US Science - Huffington Post Science",
+    "url": "http://www.huffingtonpost.com/feeds/verticals/science/index.xml",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:29.494883"
+  },
+  {
+    "name": "US Science - NYT Science",
+    "url": "http://rss.nytimes.com/services/xml/rss/nyt/Science.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Science - NYT Space",
+    "url": "http://rss.nytimes.com/services/xml/rss/nyt/Space.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Science - Fox News Science",
+    "url": "http://feeds.foxnews.com/foxnews/science",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Science - NBC News Science",
+    "url": "http://feeds.nbcnews.com/feeds/science",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Science - Scientific American Global",
+    "url": "http://rss.sciam.com/ScientificAmerican-Global",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Science - Breaking Science News",
+    "url": "http://feeds.feedburner.com/BreakingScienceNews?format=xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Science - Wired Science",
+    "url": "http://feeds.wired.com/wiredscience",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Science - Science Daily",
+    "url": "http://feeds.sciencedaily.com/sciencedaily",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-05-10T14:48:51.667990"
+  },
+  {
+    "name": "US Science - LA Times Health",
+    "url": "http://www.latimes.com/health/rss2.0.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Science - Houston Chronicle AP Technology and Science",
+    "url": "http://www.chron.com/rss/feed/AP-Technology-and-Science-266.php",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Science - Washington Post Speaking of Science",
+    "url": "http://feeds.washingtonpost.com/rss/rss_speaking-of-science",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Science - Science Magazine Current",
+    "url": "http://www.sciencemag.org/rss/current.xml",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:29.574824"
+  },
+  {
+    "name": "US Science - Discover Top Stories",
+    "url": "http://feeds.feedburner.com/DiscoverTopStories",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Science - BBC News Science & Environment",
+    "url": "http://feeds.bbci.co.uk/news/science_and_environment/rss.xml",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:26.674712"
+  },
+  {
+    "name": "US Science - HowToGeek",
+    "url": "http://feeds.howtogeek.com/howtogeek",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Science - HowStuffWorks Science",
+    "url": "http://syndication.howstuffworks.com/rss/science",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Science - NPR Science Podcast",
+    "url": "http://www.npr.org/templates/rss/podlayer.php?id=1007",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Science - NASA Breaking News",
+    "url": "http://www.nasa.gov/rss/dyn/breaking_news.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Science - Live Science",
+    "url": "http://www.livescience.com/home/feed/site.xml",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:44.204410"
+  },
+  {
+    "name": "US Science - Scientific American News",
+    "url": "http://rss.sciam.com/ScientificAmerican-News",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Science - Nature Biotechnology Current",
+    "url": "http://feeds.nature.com/nbt/rss/current",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Science - Popular Science",
+    "url": "http://www.popsci.com/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Science - Nautilus",
+    "url": "http://nautil.us/rss/all",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Science - Ars Technica Science",
+    "url": "http://feeds.arstechnica.com/arstechnica/science",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Science - Smithsonian Magazine Science & Nature",
+    "url": "http://www.smithsonianmag.com/rss/science-nature/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Science - Gawker io9 Full",
+    "url": "http://feeds.gawker.com/io9/full#_ga=1.239815749.772722176.1436906624",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-05-10T14:48:50.532323"
+  },
+  {
+    "name": "US Science - New Scientist Science News",
+    "url": "http://feeds.newscientist.com/science-news",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Science - New Scientist Space",
+    "url": "http://feeds.newscientist.com/space",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Science - PNAS Feature Article",
+    "url": "http://www.pnas.org/rss/Feature_Article.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Science - TreeHugger Science",
+    "url": "http://www.treehugger.com/feeds/category/science/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Science - Time Science & Health",
+    "url": "http://feeds2.feedburner.com/time/scienceandhealth",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Science - EurekaAlert",
+    "url": "http://www.eurekalert.org/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Science - Phys.org",
+    "url": "http://phys.org/rss-feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Science - CS Monitor Science",
+    "url": "http://rss.csmonitor.com/feeds/science",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Science - Yahoo Science",
+    "url": "http://news.yahoo.com/rss/science",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Science - AP Science News",
+    "url": "http://hosted2.ap.org/atom/APDEFAULT/b2f0ca3a594644ee9e50a8ec4ce2d6de",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Science - IFL Science",
+    "url": "http://omnifeed.com/feed/www.iflscience.com/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Science - National Geographic News",
+    "url": "http://news.nationalgeographic.com/rss/index.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Science - Wired Science Blogs",
+    "url": "http://www.wired.com/category/science/science-blogs/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Science - IEEE Spectrum Full Text",
+    "url": "http://feeds.feedburner.com/IeeeSpectrumFullText",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Science - The Verge Science",
+    "url": "http://www.theverge.com/science/rss/index.xml",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:29.238633"
+  },
+  {
+    "name": "US Science - Grist",
+    "url": "http://grist.org/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Science - The Guardian Science",
+    "url": "http://www.theguardian.com/science/rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Science - The Guardian US Environment",
+    "url": "http://www.theguardian.com/us/environment/rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Science - Science Daily",
+    "url": "http://feeds.sciencedaily.com/sciencedaily",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Science - ViralNova",
+    "url": "http://www.viralnova.com/feed",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Sports - NYT Sports",
+    "url": "http://rss.nytimes.com/services/xml/rss/nyt/Sports.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Sports - Buzzfeed Sports",
+    "url": "http://www.buzzfeed.com/sports.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Sports - Fox News Sports",
+    "url": "http://feeds.foxnews.com/foxnews/sports",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Sports - SBNation Streams",
+    "url": "http://feeds.sbnation.com/rss/streams",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Sports - ESPN News",
+    "url": "http://sports.espn.go.com/espn/rss/news",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Sports - LA Times Sports",
+    "url": "http://www.latimes.com/sports/rss2.0.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Sports - CBS Sports Home News",
+    "url": "http://www.cbssports.com/partners/feeds/rss/home_news",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Sports - SI Top Stories",
+    "url": "http://www.si.com/rss/si_topstories.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Sports - Gawker Deadspin",
+    "url": "http://feeds.gawker.com/deadspin/full",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Sports - Yahoo Sports Top Stories",
+    "url": "https://sports.yahoo.com/top/rss.xml",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:23.581385"
+  },
+  {
+    "name": "US Sports - USA Today Sports",
+    "url": "http://content.usatoday.com/marketing/rss/rsstrans.aspx?feedId=sports1",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Sports - Washington Post Early Lead",
+    "url": "http://feeds.washingtonpost.com/rss/rss_early-lead",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Sports - The Guardian US Sport",
+    "url": "http://www.theguardian.com/sport/us-sport/rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Sports - AP Sports Headlines",
+    "url": "http://hosted.ap.org/lineups/SPORTSHEADS.rss?SITE=AP&SECTION=HOME",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - Huffington Post Technology",
+    "url": "http://www.huffingtonpost.com/feeds/verticals/technology/news.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - CNN Tech",
+    "url": "http://rss.cnn.com/rss/cnn_tech.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - NYT Technology",
+    "url": "http://rss.nytimes.com/services/xml/rss/nyt/Technology.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - Fox News Tech",
+    "url": "http://feeds.foxnews.com/foxnews/tech",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - The Verge Features",
+    "url": "http://www.theverge.com/rss/group/features/index.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - TechCrunch",
+    "url": "http://feeds.feedburner.com/TechCrunch/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - Wired",
+    "url": "http://feeds.wired.com/wired/index",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - Mashable",
+    "url": "http://mashable.com/category/rss/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - CNET News",
+    "url": "http://www.cnet.com/rss/news/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - CNET iPhone Update",
+    "url": "http://www.cnet.com/rss/iphone-update/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - CNET Android Update",
+    "url": "http://www.cnet.com/rss/android-update/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - WSJ Technology",
+    "url": "http://online.wsj.com/xml/rss/3_7455.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - NPR Technology",
+    "url": "http://www.npr.org/rss/rss.php?id=1019",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - Macworld",
+    "url": "http://www.macworld.com/index.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - PCWorld",
+    "url": "http://www.pcworld.com/index.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - Recode General",
+    "url": "http://recode.net/category/general/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - Recode Mobile",
+    "url": "http://recode.net/category/mobile/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - Recode Security",
+    "url": "http://recode.net/category/security/feed/",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:37.552946"
+  },
+  {
+    "name": "US Tech - Recode Enterprise",
+    "url": "http://recode.net/category/enterprise/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - Engadget",
+    "url": "http://www.engadget.com/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - Gawker Gizmodo",
+    "url": "http://feeds.gawker.com/gizmodo/full",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - TechCrunch Startups",
+    "url": "http://feeds.feedburner.com/techcrunch/startups?format=xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - TechCrunch Gaming",
+    "url": "http://feeds.feedburner.com/TechCrunch/Gaming?format=xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - VentureBeat",
+    "url": "http://feeds.venturebeat.com/VentureBeat",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - VentureBeat Small Biz",
+    "url": "http://feeds.venturebeat.com/smallbiz",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - Gawker Valleywag",
+    "url": "http://feeds.gawker.com/valleywag/full",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - LA Times Technology",
+    "url": "http://www.latimes.com/business/technology/rss2.0.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - Biz Journals Industry 7",
+    "url": "http://feeds.bizjournals.com/industry_7",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - ABC News Technology Headlines",
+    "url": "http://feeds.abcnews.com/abcnews/technologyheadlines",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - Buzzfeed Tech",
+    "url": "http://www.buzzfeed.com/tech.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - TechRadar",
+    "url": "http://feeds.webservice.techradar.com/us/rss/new",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - GigaOm",
+    "url": "http://gigaom.com/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - Ars Technica Gadgets",
+    "url": "http://feeds.arstechnica.com/arstechnica/gadgets",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - Geek.com",
+    "url": "http://www.geek.com/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - Computer Weekly All Content",
+    "url": "http://www.computerweekly.com/rss/All-Computer-Weekly-content.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - TechRepublic News",
+    "url": "http://techrepublic.com.feedsportal.com/c/35463/f/670841/index.rss",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-05-13T09:36:23.578852"
+  },
+  {
+    "name": "US Tech - ZDNet News",
+    "url": "http://zdnet.com.feedsportal.com/c/35462/f/675634/index.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - Forbes Technology",
+    "url": "http://www.forbes.com/technology/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - Time Tech",
+    "url": "http://time.com/tech/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - Feedsportal Tech",
+    "url": "http://rss.feedsportal.com/c/270/f/3547/index.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - USA Today Tech Top Stories",
+    "url": "http://rssfeeds.usatoday.com/usatoday-TechTopStories",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - BBC Technology",
+    "url": "http://feeds.bbci.co.uk/news/technology/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - The Inquirer",
+    "url": "http://www.theinquirer.net/feeds/rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - Tech Report News",
+    "url": "http://techreport.com/news.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - TechSpot News",
+    "url": "http://www.techspot.com/backend.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - Techtarget PR",
+    "url": "http://www.techtarget.com/html/pr/tt_pr.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - Geekologie iShm",
+    "url": "http://feeds.feedburner.com/geekologie/iShm",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-05-13T09:36:23.825093"
+  },
+  {
+    "name": "US Tech - DailyTech News",
+    "url": "http://www.dailytech.com/rss.aspx",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - Digital Trends",
+    "url": "http://www.digitaltrends.com/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - Bit-Tech News",
+    "url": "http://feeds2.feedburner.com/bit-tech/all",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - WSJ Technology",
+    "url": "http://www.wsj.com/xml/rss/3_7455.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - Ars Technica Technology Lab",
+    "url": "http://feeds.arstechnica.com/arstechnica/technology-lab",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - Ars Technica Gadgets",
+    "url": "http://feeds.arstechnica.com/arstechnica/gadgets",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - Ars Technica Business",
+    "url": "http://feeds.arstechnica.com/arstechnica/business",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - InformationWeek",
+    "url": "http://www.informationweek.com/rss_simple.asp",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:16.668818"
+  },
+  {
+    "name": "US Tech - New Scientist Technology",
+    "url": "http://feeds.newscientist.com/tech",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - Nature News Tech",
+    "url": "http://feeds.nature.com/news/rss/news_s16",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - Technology Review RSS",
+    "url": "http://www.technologyreview.com/stream/rss/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - AP Technology Headlines",
+    "url": "http://hosted2.ap.org/atom/APDEFAULT/495d344a0d10421e9baa8ee77029cfbd",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:27.562799"
+  },
+  {
+    "name": "US Tech - Science Daily Top Health",
+    "url": "http://feeds.sciencedaily.com/sciencedaily/top_news/top_health",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - Washington Post Technology",
+    "url": "http://feeds.washingtonpost.com/rss/business/technology",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - Tech Insider",
+    "url": "http://www.techinsider.io/rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - IEEE Spectrum Robotics Channel",
+    "url": "http://feeds.feedburner.com/IeeeSpectrumRoboticsChannel",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - The Verge Technology",
+    "url": "http://www.theverge.com/tech/rss/index.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Tech - Recode News",
+    "url": "http://recode.net/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Entertainment - WSJ Speakeasy",
+    "url": "http://blogs.wsj.com/speakeasy/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Entertainment - MTV News",
+    "url": "http://www.mtv.com/rss/news/news_full.jhtml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Entertainment - Hollywood Reporter Live Feed",
+    "url": "http://www.hollywoodreporter.com/blogs/live-feed/rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Entertainment - Variety",
+    "url": "http://variety.com/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Entertainment - Rolling Stone News",
+    "url": "http://www.rollingstone.com/news.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Entertainment - EW Today's Latest",
+    "url": "http://rss.ew.com/web/ew/rss/todayslatest/index.xml",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:35.158107"
+  },
+  {
+    "name": "US Entertainment - Grantland Hollywood Prospectus",
+    "url": "http://grantland.com/hollywood-prospectus/feed/",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:34.162719"
+  },
+  {
+    "name": "US Entertainment - LA Times Entertainment",
+    "url": "http://www.latimes.com/entertainment/rss2.0.xml",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:34.546597"
+  },
+  {
+    "name": "US Entertainment - NY Mag Vulture",
+    "url": "http://feeds.feedburner.com/nymag/vulture",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Entertainment - New Yorker Culture",
+    "url": "http://www.newyorker.com/feed/culture",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Entertainment - Buzzfeed TV and Movies",
+    "url": "http://www.buzzfeed.com/tvandmovies.xml",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:39.676604"
+  },
+  {
+    "name": "US Entertainment - USA Today Life Top Stories",
+    "url": "http://rssfeeds.usatoday.com/usatoday-LifeTopStories",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Entertainment - Access Hollywood News",
+    "url": "http://feeds.accesshollywood.com/AccessHollywood/LatestNews",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Entertainment - Fuse Latest",
+    "url": "http://feeds.feedburner.com/fuse/latest",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Entertainment - TMZ News",
+    "url": "http://www.tmz.com/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Entertainment - CBS News Entertainment",
+    "url": "http://www.cbsnews.com/latest/rss/entertainment",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Entertainment - ABC News Entertainment",
+    "url": "http://feeds.abcnews.com/abcnews/entertainmentheadlines",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Entertainment - NYDN Entertainment",
+    "url": "http://feeds.feedburner.com/nydnrss/entertainment",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:45.124826"
+  },
+  {
+    "name": "US Entertainment - Huffington Post Entertainment",
+    "url": "http://www.huffingtonpost.com/feeds/verticals/entertainment/index.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Entertainment - Vice Music",
+    "url": "http://www.vice.com/music/rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Entertainment - Ets Breaking News",
+    "url": "http://feeds.feedburner.com/EtsBreakingNews",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Entertainment - NBC Today Entertainment",
+    "url": "http://feeds.nbcnews.com/feeds/todayentertainment",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Entertainment - CNN Showbiz",
+    "url": "http://rss.cnn.com/rss/cnn_showbiz.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Entertainment - BET Entertainment",
+    "url": "http://feeds.bet.com/AllBetcom",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Entertainment - Popsugar",
+    "url": "http://www.popsugar.com/feed",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Entertainment - Hollywood Feed",
+    "url": "http://feed2.hollywood.com/hollywood/RhHn",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Entertainment - HitFix Headlines",
+    "url": "http://www.hitfix.com/headlines.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Entertainment - People Top Headlines",
+    "url": "http://rss.people.com/web/people/rss/topheadlines/index.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Entertainment - Esquire Culture",
+    "url": "http://www.esquire.com/blogs/culture/culture-rss",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:31.622153"
+  },
+  {
+    "name": "US Entertainment - Us Magazine Movies TV Music",
+    "url": "http://www.usmagazine.com/feeds/movies_tv_music/atom",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Entertainment - NME News",
+    "url": "http://feeds2.feedburner.com/nmecom/rss/newsxml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Entertainment - Yahoo News Entertainment",
+    "url": "http://news.yahoo.com/rss/entertainment",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Entertainment - Washington Post Entertainment",
+    "url": "http://www.washingtonpost.com/rss/entertainment",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Gaming - IGN All",
+    "url": "http://feeds.ign.com/ign/all",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Gaming - Kotaku",
+    "url": "http://feeds.gawker.com/kotaku/full#_ga=1.111114893.94307673.1446233598",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Gaming - Rock Paper Shotgun",
+    "url": "http://feeds.feedburner.com/RockPaperShotgun",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Gaming - VGChartz",
+    "url": "http://feeds.feedburner.com/VGChartz",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:34.372786"
+  },
+  {
+    "name": "US Gaming - TouchArcade",
+    "url": "http://toucharcade.com/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Gaming - Kill Screen Daily",
+    "url": "http://killscreendaily.com/articles/latest/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Gaming - Engadget Gaming",
+    "url": "http://www.engadget.com/tag/@gaming/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Gaming - Joystiq",
+    "url": "http://fulltextrssfeed.com/feed.php?url=www.joystiq.com%2Frss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Gaming - GamesIndustry.biz",
+    "url": "http://www.gamesindustry.biz/rss/gamesindustry_news_feed.rss",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:20.871588"
+  },
+  {
+    "name": "US Gaming - Giant Bomb Mashup",
+    "url": "http://www.giantbomb.com/feeds/mashup/",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:26.973653"
+  },
+  {
+    "name": "US Gaming - GameSpot Mashup",
+    "url": "http://www.gamespot.com/feeds/mashup/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Gaming - PCWorld Game On",
+    "url": "http://www.pcworld.com/column/game-on/index.rss",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:38.293240"
+  },
+  {
+    "name": "US Gaming - GamePolitics",
+    "url": "http://gamepolitics.com/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Gaming - Gamasutra News",
+    "url": "http://www.gamasutra.com/static2/rssfeeds.html",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Gaming - Eurogamer",
+    "url": "http://www.eurogamer.net/?format=rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Gaming - Escapist Magazine Video Games",
+    "url": "http://rss.escapistmagazine.com/tags/video-games.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Gaming - Destructoid Atom",
+    "url": "http://www.destructoid.com/?mode=atom",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Gaming - Cheap Ass Gamer Video Game Deals",
+    "url": "https://www.cheapassgamer.com/rss/forums/1-cheap-ass-gamer-video-game-dealsforum/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Gaming - GameTrailers News",
+    "url": "http://www.gametrailers.com/about/rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Gaming - RPGcast",
+    "url": "http://feeds.feedburner.com/Rpgcast",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Gaming - TIGSource News",
+    "url": "http://www.tigsource.com/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Gaming - Pocket Gamer",
+    "url": "http://www.pocketgamer.co.uk/rss.asp",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:41.465588"
+  },
+  {
+    "name": "US Gaming - Polygon News",
+    "url": "http://www.polygon.com/rss/index.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Gaming - GamesRadar News",
+    "url": "http://www.gamesradar.com/all-platforms/news/rss/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Gaming - TechCrunch Gaming",
+    "url": "http://feeds.feedburner.com/TechCrunch/gaming",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Gaming - Wired Underwire",
+    "url": "http://www.wired.com/category/underwire/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Gaming - CNET Gaming",
+    "url": "http://www.cnet.com/rss/gaming/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Gaming - TechRadar Gaming News",
+    "url": "http://feeds.webservice.techradar.com/us/rss/news/gaming",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Gaming - USA Today Top Gaming",
+    "url": "http://rssfeeds.usatoday.com/topgaming",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "US Gaming - Ars Technica Gaming",
+    "url": "http://feeds.arstechnica.com/arstechnica/gaming",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA General - Canada News",
+    "url": "http://rss.canada.com/get/?F7497",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA General - Government of Canada National News",
+    "url": "http://news.gc.ca/web/fd-en.do?mthd=ntnl&ft=atom",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA General - Government of Canada Regional News",
+    "url": "http://news.gc.ca/web/fd-en.do?mthd=rgnl&ft=atom",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA General - Journal de Montreal",
+    "url": "http://www.journaldemontreal.com/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA General - Radio-Canada National News",
+    "url": "http://rss.radio-canada.ca/fils/nouvelles/national.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA General - Calgary Sun",
+    "url": "http://www.calgarysun.com/home/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA General - Leader-Post",
+    "url": "http://leaderpost.com/feed/",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:20.309801"
+  },
+  {
+    "name": "CA General - StarPhoenix",
+    "url": "http://thestarphoenix.com/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA General - Windsor Star",
+    "url": "http://windsorstar.com/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA General - CBC Canada",
+    "url": "http://www.cbc.ca/cmlink/rss-canada",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA General - CTV News Canada",
+    "url": "http://www.ctvnews.ca/rss/ctvnews-ca-canada-public-rss-1.822284",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA General - Canada News",
+    "url": "http://rss.canada.com/get/?F75",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA General - Global News Canada",
+    "url": "http://globalnews.ca/canada/feed/",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:28.724168"
+  },
+  {
+    "name": "CA General - The Star Canada News",
+    "url": "http://www.thestar.com/feeds.articles.news.canada.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA General - Globe and Mail National News",
+    "url": "http://www.theglobeandmail.com/news/national/?service=rss",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:44.025462"
+  },
+  {
+    "name": "CA General - BBC World US and Canada",
+    "url": "http://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA General - Canada Breaking News",
+    "url": "http://rss.canada.com/get/?F270",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA General - Macleans",
+    "url": "http://www.macleans.ca/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA General - Canada National News",
+    "url": "http://rss.canada.com/get/?F7364",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA General - Canada National News",
+    "url": "http://rss.canada.com/get/?F264",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA General - NHL News",
+    "url": "http://www.nhl.com/rss/news.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA General - 660 News Spotlight",
+    "url": "http://www.660news.com/featured/spotlight/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA General - Brandon Sun Breaking News",
+    "url": "http://www.brandonsun.com/rss/?path=%2Fnational%2Fbreaking-news",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA General - The Walrus",
+    "url": "http://thewalrus.ca/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA General - Toronto Sun",
+    "url": "http://www.torontosun.com/home/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA General - Canada News",
+    "url": "http://rss.canada.com/get/?F243",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA General - Canada News",
+    "url": "http://rss.canada.com/get/?F259",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA General - Canada News",
+    "url": "http://rss.canada.com/get/?F291",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA General - The Tyee",
+    "url": "http://feeds.feedblitz.com/thetyee",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Politics - Huffington Post Canada Politics",
+    "url": "http://www.huffingtonpost.ca/feeds/verticals/canada-politics/index.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Politics - Back of the Book",
+    "url": "http://backofthebook.ca/feed/rss/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Politics - Radio-Canada Politics",
+    "url": "http://rss.radio-canada.ca/fils/nouvelles/politique.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Politics - Rabble News",
+    "url": "http://feeds.feedburner.com/rabble-news?format=xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Politics - Hill Times",
+    "url": "http://www.hilltimes.com/feed",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Politics - Globe and Mail Politics",
+    "url": "http://www.theglobeandmail.com/news/politics/?service=rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Politics - CBC Politics",
+    "url": "http://rss.cbc.ca/lineup/politics.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Politics - CTV News Politics",
+    "url": "http://www.ctvnews.ca/rss/ctvnews-ca-politics-public-rss-1.822302",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Politics - Global News Politics",
+    "url": "http://globalnews.ca/politics/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Politics - Economist Canadian Politics",
+    "url": "http://www.economist.com/topics/canadian-politics/index.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Politics - The Star Politics Blog",
+    "url": "http://www.thestar.com/feeds.blogs.news.politics_blog.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Politics - The Star Canada News",
+    "url": "http://www.thestar.com/feeds.articles.news.canada.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Politics - Macleans Inkless Wells",
+    "url": "http://www.macleans.ca/author/inklesswells/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Politics - New York Times Canada",
+    "url": "http://topics.nytimes.com/top/news/international/countriesandterritories/canada/index.html?rss=1",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Business - Canada Business News",
+    "url": "http://rss.canada.com/get/?F7537",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Business - Morningstar Canada",
+    "url": "http://feeds.feedburner.com/morningstar/glkd",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Business - Government of Canada Business News",
+    "url": "http://news.gc.ca/web/fd-en.do?mthd=thm&ft=atom&crtr.thm1D=7",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Business - Government of Canada Business News",
+    "url": "http://news.gc.ca/web/fd-en.do?mthd=thm&ft=atom&crtr.thm1D=17",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Business - Radio-Canada Economy News",
+    "url": "http://rss.radio-canada.ca/fils/nouvelles/economieaffaires.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Business - Calgary Sun Money",
+    "url": "http://www.calgarysun.com/money/rss.xml",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:23.820688"
+  },
+  {
+    "name": "CA Business - Huffington Post Canada Business",
+    "url": "http://www.huffingtonpost.ca/feeds/verticals/canada-business/index.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Business - Canoe Money",
+    "url": "http://rss.canoe.com/Money/home.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Business - IT Business",
+    "url": "http://www.itbusiness.ca/feed",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Business - FT US Business",
+    "url": "http://www.ft.com/rss/home/us",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:22.350279"
+  },
+  {
+    "name": "CA Business - CBC Business News",
+    "url": "http://rss.cbc.ca/lineup/business.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Business - CBJ Canadian Business News",
+    "url": "http://www.cbj.ca/business_news/canadian_business_news/index.1.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Business - CBJ Business in Action",
+    "url": "http://www.cbj.ca/business_in_action/april_11/index.1.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Business - Financial Post Top Stories",
+    "url": "http://feeds.feedburner.com/FP_TopStories?format=xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Business - Canadian Business",
+    "url": "http://www.canadianbusiness.com/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Business - CTV News Business Headlines",
+    "url": "http://www.ctvnews.ca/rss/business/ctv-news-business-headlines-1.867648",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Business - Economist Alberta Politics",
+    "url": "http://www.economist.com/blogs/americasview/2014/09/politics-alberta?fsrc=rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Business - Canada Business News",
+    "url": "http://rss.canada.com/get/?F7477",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Business - Canada Business News",
+    "url": "http://rss.canada.com/get/?F6939",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Business - Wall Street Journal Canada Real-time",
+    "url": "http://blogs.wsj.com/canadarealtime/feed/?mod=WSJ_Canada_Realtime&mg=blogswsj&url=http%253A%252F%252Fblogs.wsj.com%252Fcanadarealtime%252Ffeed%253Fmod%253DWSJ_Canada_Realt",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Gaming - Canada Gaming News",
+    "url": "http://rss.canada.com/get/?F7541",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Gaming - G4TV Canada",
+    "url": "http://feeds.feedburner.com/feedburner/g4tv_ca",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Gaming - Cogconnected",
+    "url": "http://cogconnected.com/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Gaming - Canadian Video Game Awards",
+    "url": "http://www.cvawards.ca/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Gaming - Gaming Post",
+    "url": "http://www.gamingpost.ca/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Health - Canada Health News",
+    "url": "http://rss.canada.com/get/?F7523",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:35.079530"
+  },
+  {
+    "name": "CA Health - Canada Health News",
+    "url": "http://rss.canada.com/get/?F7519",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Health - Canada Health News",
+    "url": "http://rss.canada.com/get/?F7517",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Health - Elle Canada Health",
+    "url": "http://www.ellecanada.com/rss_feed/home.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Health - Government of Canada Health News",
+    "url": "http://news.gc.ca/web/fd-en.do?mthd=thm&ft=atom&crtr.thm1D=9",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Health - Journal de Montreal Health",
+    "url": "http://www.journaldemontreal.com/jm/sante/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Health - Calgary Sun Health",
+    "url": "http://www.calgarysun.com/life/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Health - Huffington Post Canada Lifestyle",
+    "url": "http://www.huffingtonpost.ca/feeds/verticals/canada-lifestyle/index.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Health - Canoe Lifewise",
+    "url": "http://rss.canoe.com/Lifewise/home.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Health - BBC News Canada",
+    "url": "http://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Health - The Star Health and Wellness",
+    "url": "http://www.thestar.com/feeds.articles.life.health_wellness.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Health - Globe and Mail Health and Fitness",
+    "url": "http://www.theglobeandmail.com/life/health-and-fitness/?service=rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Health - Toronto Sun Health and Fitness",
+    "url": "http://www.torontosun.com/life/health-and-fitness/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Health - Canada Health News",
+    "url": "http://rss.canada.com/get/?F7523",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Health - National Post Health",
+    "url": "http://news.nationalpost.com/category/health/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Health - Canada Health News",
+    "url": "http://rss.canada.com/get/?F6918",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Health - Ottawa Citizen",
+    "url": "http://ottawacitizen.com/feed",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Health - Canada Health News",
+    "url": "http://rss.canada.com/get/?F7738",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Health - Hamilton Health",
+    "url": "http://rss.metroland.com/9/article/hamilton/living/health",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Science - CBC Science News",
+    "url": "http://www.cbc.ca/cmlink/1.392",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:39.564581"
+  },
+  {
+    "name": "CA Science - Radio-Canada Science News",
+    "url": "http://rss.radio-canada.ca/fils/nouvelles/scienceetsante.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Science - CBC Science News",
+    "url": "http://www.cbc.ca/cmlink/1.392",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Science - CTV Science and Tech",
+    "url": "http://www.ctvnews.ca/rss/ctvnews-ca-sci-tech-public-rss-1.822295",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Science - Global News Science",
+    "url": "http://globalnews.ca/science/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Science - Huffington Post Canada Science",
+    "url": "http://www.huffingtonpost.com/feeds/verticals/science/index.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Science - The Star Technology",
+    "url": "http://www.thestar.com/feeds.articles.life.technology.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Science - Financial Post Tech Desk",
+    "url": "http://business.financialpost.com/category/fp-tech-desk/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Science - National Post Health",
+    "url": "http://news.nationalpost.com/category/health/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Science - Globe and Mail Technology",
+    "url": "http://www.theglobeandmail.com/technology/?service=rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Science - Toronto Sun Technology",
+    "url": "http://www.torontosun.com/tech/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Science - Toronto Sun Health and Fitness",
+    "url": "http://www.torontosun.com/life/health-and-fitness/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Science - Canada Health News",
+    "url": "http://rss.canada.com/get/?F7523",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Sports - Canada Sports News",
+    "url": "http://rss.canada.com/get/?F255",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Sports - Journal de Montreal Sports",
+    "url": "http://www.journaldemontreal.com/sports/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Sports - Radio-Canada Sports News",
+    "url": "http://rss.radio-canada.ca/fils/sports/sports.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Sports - Calgary Sun Sports",
+    "url": "http://www.calgarysun.com/sports/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Sports - Huffington Post Canada Sports",
+    "url": "http://www.huffingtonpost.ca/feeds/verticals/canada-sports/index.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Sports - Canoe Slam Sports",
+    "url": "http://rss.canoe.com/Slam/home.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Sports - Toronto Sports Media",
+    "url": "http://torontosportsmedia.com/feed",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Sports - CIS News",
+    "url": "http://en.cis-sic.ca/landing/headlines-featured?feed=rss_2.0",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Sports - CBC Sports",
+    "url": "http://www.cbc.ca/cmlink/rss-sports",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Sports - TSN Sports",
+    "url": "http://www.tsn.ca/datafiles/rss/Stories.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Sports - Sportsnet Feed",
+    "url": "http://www.sportsnet.ca/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Sports - Yahoo Sports Canada",
+    "url": "https://ca.sports.yahoo.com/top/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Sports - The Star Sports",
+    "url": "http://www.thestar.com/feeds.articles.sports.rss",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:45.507042"
+  },
+  {
+    "name": "CA Sports - Globe and Mail Sports",
+    "url": "http://www.theglobeandmail.com/sports/?service=rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Sports - Canada Sports News",
+    "url": "http://rss.canada.com/get/?F260",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Sports - Global News Sports",
+    "url": "http://globalnews.ca/sports/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Sports - Toronto Sun Sports",
+    "url": "http://www.torontosun.com/sports/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Sports - Winnipeg Free Press Sports",
+    "url": "http://www.winnipegfreepress.com/rss/?path=%2Fsports",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Tech - Canada Tech News",
+    "url": "http://rss.canada.com/get/?F7539",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Tech - Radio-Canada Technology News",
+    "url": "http://rss.radio-canada.ca/fils/nouvelles/technologie.xml",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:26.144327"
+  },
+  {
+    "name": "CA Tech - Calgary Sun Tech",
+    "url": "http://www.calgarysun.com/tech/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Tech - PC Authority Tech News",
+    "url": "http://www.pcauthority.com.au/RSS/rss.ashx?type=Category&ID=12",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Tech - Tech Vibes Blog",
+    "url": "http://www.techvibes.com/feed/blog/xml/global/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Tech - BetaKit",
+    "url": "http://betakit.com/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Tech - CBC Technology",
+    "url": "http://www.cbc.ca/cmlink/rss-technology",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Tech - Canada Tech News",
+    "url": "http://rss.canada.com/get/?F7166",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Tech - Canada Tech News",
+    "url": "http://rss.canada.com/get/?F221",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Tech - Canada Tech News",
+    "url": "http://rss.canada.com/get/?F7484",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Tech - Mobile Syrup",
+    "url": "http://mobilesyrup.com/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Tech - Global News Tech",
+    "url": "http://globalnews.ca/tech/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Tech - The Star Technology",
+    "url": "http://www.thestar.com/feeds.articles.life.technology.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Tech - Epoch Times Tech News",
+    "url": "http://www.theepochtimes.com/n3/c/tech/tech-news/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Tech - Huffington Post Canada Technology",
+    "url": "http://www.huffingtonpost.com/feeds/verticals/technology/news.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Entertainment - Canada Entertainment News",
+    "url": "http://rss.canada.com/get/?F7502",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Entertainment - The Star Entertainment",
+    "url": "http://www.thestar.com/feeds.articles.entertainment.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Entertainment - Huffington Post Canada Music",
+    "url": "http://www.huffingtonpost.ca/feeds/verticals/canada-music/index.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Entertainment - Canada News Music",
+    "url": "http://news.gc.ca/web/fd-en.do?mthd=thm&ft=atom&crtr.thm1D=13",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Entertainment - Calgary Sun Music",
+    "url": "http://www.calgarysun.com/entertainment/music/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Entertainment - Canoe Jam Music",
+    "url": "http://rss.canoe.com/Jam/Music/home.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Entertainment - Exclaim! All Articles",
+    "url": "http://feeds.feedburner.com/ExclaimCaAllArticles",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Entertainment - Chart Attack",
+    "url": "http://www.chartattack.com/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Entertainment - Music Canada Feed",
+    "url": "http://musiccanada.com/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Entertainment - Canadian Musician Podcast",
+    "url": "http://www.blogtalkradio.com/canadianmusician/podcast",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:30.016288"
+  },
+  {
+    "name": "CA Entertainment - The Scene Mag",
+    "url": "http://feeds.feedburner.com/thescenemag",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Entertainment - Canada News Music Feed",
+    "url": "http://rss.canada.com/get/?F6946",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Entertainment - Canada News Music Feed",
+    "url": "http://rss.canada.com/get/?F7500",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Entertainment - Journal de Montreal Spectacles",
+    "url": "http://www.journaldemontreal.com/spectacles/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Entertainment - Radio-Canada Arts and Spectacles",
+    "url": "http://rss.radio-canada.ca/fils/arts-spectacles/artsetspectacles.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Entertainment - Calgary Sun Entertainment",
+    "url": "http://www.calgarysun.com/entertainment/rss.xml",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:38.367269"
+  },
+  {
+    "name": "CA Entertainment - Canoe Jam Movies",
+    "url": "http://rss.canoe.com/Jam/Movies/home.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Entertainment - CBC Arts",
+    "url": "http://rss.cbc.ca/lineup/arts.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Entertainment - National Post Arts",
+    "url": "http://arts.nationalpost.com/category/arts/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Entertainment - Canada News Arts",
+    "url": "http://rss.canada.com/get/?F69",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Entertainment - Globe and Mail Arts",
+    "url": "http://www.theglobeandmail.com/arts/?service=rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Entertainment - Toronto Sun Entertainment",
+    "url": "http://www.torontosun.com/entertainment/rss.xml",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:28.972542"
+  },
+  {
+    "name": "CA Entertainment - Global News Entertainment",
+    "url": "http://globalnews.ca/category/entertainment/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Entertainment - Canada News Entertainment",
+    "url": "http://rss.canada.com/get/?F6948",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Entertainment - Ottawa Sun Entertainment",
+    "url": "http://www.ottawasun.com/entertainment/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Entertainment - Canada News Entertainment",
+    "url": "http://rss.canada.com/get/?F7366",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Entertainment - Canoe Jam Home",
+    "url": "http://rss.canoe.ca/Jam/home.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "CA Entertainment - Dose.ca",
+    "url": "http://www.dose.ca/feed",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN General - Telegraph India News",
+    "url": "http://www.telegraphindia.com/feeds/rss.jsp?id=3",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN General - Caravan Magazine",
+    "url": "http://www.caravanmagazine.in/feed",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN General - The Wire India",
+    "url": "http://thewire.in/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN General - One India News",
+    "url": "http://www.oneindia.com/rss/news-india-fb.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN General - Sify News India",
+    "url": "http://sify.com/rss2/news/article/category/national",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN General - Tehelka Magazine",
+    "url": "http://www.tehelka.com/?feed=custom_feed",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN General - Outlook India News",
+    "url": "http://www.outlookindia.com/rss/main/website",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN General - Outlook India Newswire",
+    "url": "http://www.outlookindia.com/rss/main/newswire",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN General - Outlook India Section 19",
+    "url": "http://www.outlookindia.com/rss/section/19",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN General - Hindustan Times India",
+    "url": "http://feeds.hindustantimes.com/HT-India",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN General - Indian Express India",
+    "url": "http://indianexpress.com/section/india/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN General - Times of India India",
+    "url": "http://timesofindia.feedsportal.com/c/33039/f/533916/index.rss",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:41.232378"
+  },
+  {
+    "name": "IN General - BBC India News",
+    "url": "http://feeds.bbci.co.uk/news/world/asia/india/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN General - IBN Live India News",
+    "url": "http://ibnlive.in.com/ibnrss/top.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN General - Times of India World News",
+    "url": "http://timesofindia.feedsportal.com/c/33039/f/533965/index.rss",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:24.012526"
+  },
+  {
+    "name": "IN General - India Today News",
+    "url": "http://indiatoday.feedsportal.com/c/33614/f/589699/index.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN General - Hindu Business Line India",
+    "url": "http://www.thehindubusinessline.com/news/?service=rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN General - Hindu Business Line International",
+    "url": "http://www.thehindubusinessline.com/news/international/?service=rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN General - Hindu India News",
+    "url": "http://www.thehindu.com/news/national/?service=rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN General - Zee News India",
+    "url": "http://zeenews.india.com/rss/world-news.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN General - Business Standard India",
+    "url": "http://www.business-standard.com/rss/current-affairs-news-11501.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN General - NVO News India",
+    "url": "http://nvonews.com/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN General - Economic Times News",
+    "url": "http://economictimes.indiatimes.com/News/rssfeeds/1715249553.cms",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN General - Sikh Siyasat",
+    "url": "http://www.sikhsiyasat.com/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN General - India Today",
+    "url": "http://indiatoday.feedsportal.com/c/33614/f/589699/index.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN General - Asian Age",
+    "url": "http://www.asianage.com/rss/38",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:42.145297"
+  },
+  {
+    "name": "IN General - Business Standard Top Stories",
+    "url": "http://www.business-standard.com/rss/home_page_top_stories.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN General - DNA India",
+    "url": "http://www.dnaindia.com/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN General - Deccan Chronicle",
+    "url": "http://www.deccanchronicle.com/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN General - Deccan Herald Top Stories",
+    "url": "http://www.deccanherald.com/rss-internal/top-stories.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN General - Financial Express Latest News",
+    "url": "http://syndication.financialexpress.com/rss/latest-news.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN General - Mid Day National News",
+    "url": "http://www.mid-day.com/Resources/midday/rss/news-national.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN General - Live Mint Homepage",
+    "url": "http://www.livemint.com/rss/homepage",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Politics - Telegraph India Politics",
+    "url": "http://www.telegraphindia.com/feeds/rss.jsp?id=4",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Politics - Sify Politics",
+    "url": "http://sify.com/rss2/news/article/category/politics",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Politics - Hindu National News",
+    "url": "http://www.thehindu.com/news/national/?service=rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Politics - Hindu South Asia News",
+    "url": "http://www.thehindu.com/news/international/south-asia/?service=rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Politics - Hindu Cities News",
+    "url": "http://www.thehindu.com/news/cities/?service=rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Politics - Yahoo Politics",
+    "url": "https://in.news.yahoo.com/rss/politics",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Politics - Yahoo National News",
+    "url": "https://in.news.yahoo.com/rss/national",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Politics - IBN Live Politics",
+    "url": "http://ibnlive.in.com/ibnrss/rss/politics/politics.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Politics - IBN Live Elections",
+    "url": "http://ibnlive.in.com/ibnrss/rss/politics/elections.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Politics - IBN Live Face the Nation",
+    "url": "http://ibnlive.in.com/ibnrss/rss/shows/facethenation.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Politics - IBN Live Delhi Elections",
+    "url": "http://ibnlive.in.com/ibnrss/rss/elections/delhielections.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Politics - IBN Live Chhattisgarh Elections",
+    "url": "http://ibnlive.in.com/ibnrss/rss/elections/chhattisgarhelections.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Politics - IBN Live Lok Sabha Elections",
+    "url": "http://ibnlive.in.com/ibnrss/rss/loksabhaelections/loksabhaelections.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Politics - IBN Live Madhya Pradesh Elections",
+    "url": "http://ibnlive.in.com/ibnrss/rss/elections/madhyapradeshelections.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Politics - IBN Live Rajasthan Elections",
+    "url": "http://ibnlive.in.com/ibnrss/rss/elections/rajasthanelections.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Politics - IBN Live Mizoram Elections",
+    "url": "http://ibnlive.in.com/ibnrss/rss/elections/mizoramelections.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Politics - IBN Live Haryana Elections",
+    "url": "http://ibnlive.in.com/ibnrss/rss/elections/haryanaelections.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Politics - IBN Live Maharashtra Elections",
+    "url": "http://ibnlive.in.com/ibnrss/rss/elections/maharashtraelections.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Politics - IBN Live Odisha Elections",
+    "url": "http://ibnlive.in.com/ibnrss/rss/elections/odishaelections.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Politics - IBN Live Andhra Pradesh Elections",
+    "url": "http://ibnlive.in.com/ibnrss/rss/elections/andhrapradeshelections.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Politics - IBN Live Sikkim Elections",
+    "url": "http://ibnlive.in.com/ibnrss/rss/elections/sikkimelections.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Politics - Sage Publications Politics",
+    "url": "http://inp.sagepub.com/rss/current.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Politics - Indian Express Politics",
+    "url": "http://indianexpress.com/section/india/politics/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Politics - Times of India Politics",
+    "url": "http://timesofindia.feedsportal.com/c/33039/f/533916/index.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Politics - Financial Times India",
+    "url": "http://www.ft.com/rss/world/asiapacific/india",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Politics - First Post Politics",
+    "url": "http://www.firstpost.com/politics/feed",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Politics - Frontline Politics",
+    "url": "http://www.frontline.in/politics/?service=rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Politics - Economist India Politics",
+    "url": "http://www.economist.com/topics/india/index.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Politics - Live Mint Politics",
+    "url": "http://www.livemint.com/rss/economy_politics",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Business - One India Business",
+    "url": "http://www.oneindia.com/rss/news-business-fb.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Business - Tehelka Economy",
+    "url": "http://www.tehelka.com/economy/?feed=custom_feed",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Business - Outlook India Business",
+    "url": "http://www.outlookindia.com/rss/section/18",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Business - Sify Bank News",
+    "url": "http://sify.com/rss2/business/article/category/bank",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Business - Sify IPO News",
+    "url": "http://sify.com/rss2/business/article/category/ipo",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Business - Times of India Business",
+    "url": "http://timesofindia.feedsportal.com/c/33039/f/534010/index.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Business - Times of India Business",
+    "url": "http://timesofindia.feedsportal.com/c/33039/f/533919/index.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Business - Economic Times Business",
+    "url": "http://economictimes.indiatimes.com/rssfeedsdefault.cms",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Business - Business Week Popular",
+    "url": "http://www.businessweek.com/feeds/most-popular.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Business - Business Standard Today's Paper",
+    "url": "http://www.business-standard.com/rss/todays-paper.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Business - Business Standard Top Stories",
+    "url": "http://www.business-standard.com/rss/home_page_top_stories.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Business - Forbes India",
+    "url": "http://forbesindia.com/rssfeed/rss_all.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Business - NDTV Business",
+    "url": "http://feeds.feedburner.com/NDTV-Business?format=xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Business - Hindustan Times Business",
+    "url": "http://feeds.hindustantimes.com/HT-Business?format=xml",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:27.762817"
+  },
+  {
+    "name": "IN Business - Zee News Business",
+    "url": "http://zeenews.india.com/rss/business.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Business - Yahoo India Business",
+    "url": "https://in.news.yahoo.com/rss//india",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Business - AP World Headlines",
+    "url": "http://hosted.ap.org/lineups/WORLDHEADS.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Business - Huffington Post Business News",
+    "url": "http://www.huffingtonpost.com/feeds/verticals/business/news.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Business - Live Mint Homepage",
+    "url": "http://www.livemint.com/rss/homepage",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Business - New York Times International Business",
+    "url": "http://www.nytimes.com/services/xml/rss/nyt/InternationalBusiness.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Business - Google News Business",
+    "url": "https://news.google.com/news/feeds?cf=all&ned=in&hl=en&topic=b&output=rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Business - The Times India Business",
+    "url": "http://www.thetimes.co.uk/tto/business/markets/india/rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Business - Live Mint Companies",
+    "url": "http://www.livemint.com/rss/companies",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Business - Live Mint Consumer",
+    "url": "http://www.livemint.com/rss/consumer",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Business - Live Mint Money",
+    "url": "http://www.livemint.com/rss/money",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Business - Live Mint Industry",
+    "url": "http://www.livemint.com/rss/industry",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Health - Femina Lifestyle",
+    "url": "http://www.femina.in/feeds/feeds-lifestyle.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Health - Femina Fitness",
+    "url": "http://www.femina.in/feeds/feeds-fitness.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Health - Hindustan Times Home Page Top Stories",
+    "url": "http://feeds.hindustantimes.com/HT-HomePage-TopStories",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Health - Times of India Health",
+    "url": "http://timesofindia.indiatimes.com/rssfeeds/2886714.cms",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Health - BBC Asia Health",
+    "url": "http://feeds.bbci.co.uk/news/world/asia/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Health - India Today Health",
+    "url": "http://indiatoday.intoday.in/rss/homepage-topstories.jsp",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Health - MSN Lifestyle Health",
+    "url": "http://lifestyle.in.msn.com/rss/health.aspx",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Health - The Health Site",
+    "url": "http://www.thehealthsite.com/comments/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Health - MensXP Health",
+    "url": "http://www.mensxp.com/feeds.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Health - Forbes India Life",
+    "url": "http://forbesindia.com/rssfeed/rss_life.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Health - Mans World India",
+    "url": "http://www.mansworldindia.com/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Health - The Hindu Health",
+    "url": "http://www.thehindu.com/sci-tech/health/?service=rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Gaming - PC Quest Games",
+    "url": "http://www.pcquest.com/rss-2-2/?cat_slug=games",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Science - NDTV Tech",
+    "url": "http://feeds.feedburner.com/NDTV-Tech",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Science - Sify Science",
+    "url": "http://sify.com/rss2/news/article/category/science",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Science - Hindu Science",
+    "url": "http://www.thehindu.com/sci-tech/science/?service=rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Science - Hindustan Times Reviews",
+    "url": "http://feeds.hindustantimes.com/HT-Reviews",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Science - DNA India Science",
+    "url": "http://www.dnaindia.com/feeds/scitech.xml",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:39.362225"
+  },
+  {
+    "name": "IN Science - Business Standard Technology",
+    "url": "http://www.business-standard.com/rss/technology-108.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Science - Indo Daily",
+    "url": "http://www.indodaily.com/indodaily.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Science - Times of India Science",
+    "url": "http://timesofindia.indiatimes.com/rss.cms",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Science - Zee News Science and Technology",
+    "url": "http://zeenews.india.com/rss/science-technology-news.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Science - Indian Express Technology",
+    "url": "http://indianexpress.com/technology/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Sports - Telegraph India Sports",
+    "url": "http://www.telegraphindia.com/feeds/rss.jsp?id=7",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Sports - ESPN Cricinfo",
+    "url": "http://www.espncricinfo.com/rss/content/story/feeds/6.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Sports - Cricbuzz Feed",
+    "url": "http://live-feeds.cricbuzz.com/CricbuzzFeed",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Sports - One India Sports",
+    "url": "http://www.oneindia.com/rss/news-sports-fb.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Sports - Outlook India Sports",
+    "url": "http://www.outlookindia.com/rss/section/22",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Sports - Sify Cricket",
+    "url": "http://sify.com/rss2/sports/article/category/cricket",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Sports - Sify Football",
+    "url": "http://sify.com/rss2/sports/article/category/football",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Sports - Sify Other Sports",
+    "url": "http://sify.com/rss2/sports/article/category/others",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Sports - Times of India Sports",
+    "url": "http://timesofindia.feedsportal.com/c/33039/f/533921/index.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Sports - NDTV Sports",
+    "url": "http://feeds.feedburner.com/NDTV-Sports",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Sports - NDTV Cricket",
+    "url": "http://feeds.feedburner.com/NDTV-Cricket",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Sports - Indian Express Sports",
+    "url": "http://syndication.indianexpress.com/rss/785/latest-news.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Sports - Yahoo Sports",
+    "url": "https://in.news.yahoo.com/rss/sports",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Sports - India Today Sports",
+    "url": "http://indiatoday.feedsportal.com/c/33614/f/589706/index.rss?http://indiatoday.intoday.in/rss/article.jsp?sid=84",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Sports - Zee News Sports",
+    "url": "http://zeenews.india.com/rss/sports-news.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Sports - Hindustan Times Sports",
+    "url": "http://feeds.hindustantimes.com/HT-Sport",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Sports - The Hindu Sport",
+    "url": "http://www.thehindu.com/sport/?service=rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Sports - ABP Live Sports",
+    "url": "http://www.abplive.in/sports/?widgetName=rssfeed&widgetContentId=101313&getXmlFeed=true",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:41.016819"
+  },
+  {
+    "name": "IN Tech - PC Quest News Launches",
+    "url": "http://www.pcquest.com/rss-2-2/?cat_slug=news-launches",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Tech - PC Quest Tech & Trends",
+    "url": "http://www.pcquest.com/rss-2-2/?cat_slug=tech-&-trends",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Tech - Sify Technology",
+    "url": "http://sify.com/rss2/business/article/category/technology",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Tech - Times of India Tech",
+    "url": "http://timesofindia.feedsportal.com/c/33039/f/533923/index.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Tech - Tech Tree",
+    "url": "http://www.techtree.com/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Tech - Indian Express Technology",
+    "url": "http://indianexpress.com/section/technology/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Tech - The Hindu Sci-Tech",
+    "url": "http://www.thehindu.com/sci-tech/?service=rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Tech - The Hindu Technology",
+    "url": "http://www.thehindu.com/sci-tech/technology/?service=rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Tech - Hindustan Times Technology",
+    "url": "http://feeds.hindustantimes.com/HT-Technology",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Tech - Financial Express Technology",
+    "url": "http://syndication.financialexpress.com/rss/377/tech.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Tech - Gizmodo India",
+    "url": "http://www.gizmodo.in/rss_section_feeds/19124814.cms",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Tech - Zee News Science and Technology",
+    "url": "http://zeenews.india.com/rss/science-technology-news.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Tech - Computer World India",
+    "url": "http://www.computerworld.in/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Entertainment - Telegraph India Entertainment",
+    "url": "http://www.telegraphindia.com/feeds/rss.jsp?id=20",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Entertainment - Tehelka Cinema",
+    "url": "http://www.tehelka.com/cinema/?feed=custom_feed",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Entertainment - Rolling Stone India",
+    "url": "http://rollingstoneindia.com/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Entertainment - Filmibeat",
+    "url": "http://www.filmibeat.com/rss/filmibeat-fb.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Entertainment - Outlook India Entertainment",
+    "url": "http://www.outlookindia.com/rss/section/23",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Entertainment - Telly Chakkar",
+    "url": "http://www.tellychakkar.com/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Entertainment - In.com",
+    "url": "http://www.in.com/ - sthash.XTJcCE91.dpuf",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:33.234535"
+  },
+  {
+    "name": "IN Entertainment - Music Maza",
+    "url": "http://feeds2.feedburner.com/musicmaza/zNyY",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:36.700693"
+  },
+  {
+    "name": "IN Entertainment - Bollywood News Feed",
+    "url": "http://feeds2.feedburner.com/BollywoodNewsFeed",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Entertainment - Bollywood News World",
+    "url": "http://www.bollywoodnewsworld.com/feed",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Entertainment - Bollywood.com",
+    "url": "http://www.bollywood.com/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Entertainment - Times of India Entertainment",
+    "url": "http://timesofindia.indiatimes.com/rssfeeds/1081479906.cms",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Entertainment - Indian Express Entertainment",
+    "url": "http://indianexpress.com/entertainment/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Entertainment - Bollywood Life",
+    "url": "http://www.bollywoodlife.com/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Entertainment - Bollywood Hungama",
+    "url": "http://www.bollywoodhungama.com/rss/news.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Entertainment - DNA India Entertainment",
+    "url": "http://www.dnaindia.com/feeds/entertainment.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Entertainment - Zee News National News",
+    "url": "http://zeenews.india.com/rss/india-national-news.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Entertainment - Hindustan Times Entertainment",
+    "url": "http://feeds.hindustantimes.com/HT-Entertainment",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Entertainment - The Hindu Entertainment",
+    "url": "http://www.thehindu.com/entertainment/?service=rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "IN Entertainment - Live Mint Lounge",
+    "url": "http://www.livemint.com/rss/lounge",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB General - The Guardian Observer",
+    "url": "http://www.theguardian.com/observer/rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB General - The Guardian World",
+    "url": "http://www.theguardian.com/world/rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB General - The Week All Feeds",
+    "url": "http://www.theweek.co.uk/feeds/all",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB General - BBC World News",
+    "url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB General - BBC UK News",
+    "url": "http://feeds.bbci.co.uk/news/uk/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB General - The Guardian UK",
+    "url": "http://www.theguardian.com/uk/rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB General - Sky News UK",
+    "url": "http://news.sky.com/feeds/rss/uk.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB General - Telegraph UK News",
+    "url": "http://www.telegraph.co.uk/news/uknews/rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB General - Financial Times UK",
+    "url": "http://www.ft.com/rss/world/uk",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB General - Standard UK News",
+    "url": "http://www.standard.co.uk/news/rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB General - Oxford Mail UK News",
+    "url": "http://www.oxfordmail.co.uk/news/rss/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB General - Daily Mail UK News",
+    "url": "http://www.dailymail.co.uk/news/index.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB General - Express UK News",
+    "url": "http://rss.feedsportal.com/c/266/f/3503/index.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB General - Express UK News",
+    "url": "http://rss.feedsportal.com/c/266/f/3496/index.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB General - Daily Express UK News",
+    "url": "http://feeds.feedburner.com/daily-express-uk-news",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB General - Standard UK News",
+    "url": "http://www.standard.co.uk/news/rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB General - Manchester Evening News",
+    "url": "http://www.manchestereveningnews.co.uk/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB General - ITV UK News",
+    "url": "http://www.itv.com/news/index.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB General - Courier UK News",
+    "url": "http://www.thecourier.co.uk/cmlink/1.67998",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB General - Scottish News Herald",
+    "url": "http://feeds.feedburner.com/ScottishNewsHeraldScotland",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB General - Channel 4 UK News",
+    "url": "http://www.channel4.com/news/uk/rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB General - Scotsman UK News",
+    "url": "http://www.scotsman.com/rss/cmlink/1.65668",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:42.403645"
+  },
+  {
+    "name": "GB General - Newsletter UK News",
+    "url": "http://www.newsletter.co.uk/rss/cmlink/1.1571541",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB General - Examiner.ie News",
+    "url": "http://feeds.examiner.ie/ietopstories",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB General - Irish Times Editor's Picks",
+    "url": "http://www.irishtimes.com/rss/editors-picks-feed-1.1904962?localLinksEnabled=false",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Politics - Sky News Politics",
+    "url": "http://feeds.skynews.com/feeds/rss/politics.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Politics - Financial Times UK Politics",
+    "url": "http://www.ft.com/rss/world/uk/politics",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Politics - Scotsman UK Politics",
+    "url": "http://www.scotsman.com.dynamic.feedsportal.com/pf/610141/www.scotsman.com/rss/cmlink/1.3942672",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Politics - Independent UK News",
+    "url": "http://www.independent.co.uk/news/people/diary/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Politics - BBC UK Politics",
+    "url": "http://feeds.bbci.co.uk/news/politics/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Politics - The Guardian UK Politics",
+    "url": "http://feeds.theguardian.com/theguardian/politics/rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Politics - Telegraph UK Politics",
+    "url": "http://www.telegraph.co.uk/news/politics/rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Politics - Economist Blighty Blog",
+    "url": "http://www.economist.com/blogs/blighty/index.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Politics - Economist UK Britain",
+    "url": "http://www.economist.com/feeds/print-sections/76/britain.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Politics - Economist European Union",
+    "url": "http://www.economist.com/topics/european-union/index.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Politics - Huffington Post UK BNP",
+    "url": "http://www.huffingtonpost.co.uk/news/british-national-party/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Politics - Huffington Post UK London Riots",
+    "url": "http://www.huffingtonpost.co.uk/news/london-riots/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Politics - Huffington Post UK UK Election",
+    "url": "http://www.huffingtonpost.com/tag/uk-election/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Politics - Huffington Post UK Immigration",
+    "url": "http://www.huffingtonpost.co.uk/news/immigration/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Politics - Huffington Post UK Islam",
+    "url": "http://www.huffingtonpost.co.uk/news/islam/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Politics - Huffington Post UK Media",
+    "url": "http://www.huffingtonpost.co.uk/news/media/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Politics - Huffington Post UK Terrorism",
+    "url": "http://www.huffingtonpost.co.uk/news/terrorism/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Politics - Huffington Post UK Space Agency",
+    "url": "http://www.huffingtonpost.co.uk/news/space-agency/feed/",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:32.027766"
+  },
+  {
+    "name": "GB Politics - Huffington Post UK Economy",
+    "url": "http://www.huffingtonpost.co.uk/news/economy/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Politics - Standard UK Politics",
+    "url": "http://www.standard.co.uk/news/politics/rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Business - Wall Street Journal UK Business",
+    "url": "http://online.wsj.com/xml/rss/3_7031.xml",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:29.399227"
+  },
+  {
+    "name": "GB Business - WSJ MoneyBeat Europe",
+    "url": "http://blogs.wsj.com/moneybeat/category/europe/feed/?mod=WSJ_moneybeat_blog",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Business - The Guardian",
+    "url": "http://feeds.theguardian.com/theguardian/uk/business/rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Business - BBC",
+    "url": "http://feeds.bbci.co.uk/news/business/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Business - Sky News",
+    "url": "http://news.sky.com/feeds/rss/business.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Business - Feeds Portal",
+    "url": "http://rss.feedsportal.com/c/266/f/3510/index.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Business - The Telegraph",
+    "url": "http://www.telegraph.co.uk/finance/rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Business - The Times",
+    "url": "http://www.thetimes.co.uk/tto/business/rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Business - IBTimes UK",
+    "url": "http://www.ibtimes.co.uk/rss/uk",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Business - Financial Times",
+    "url": "http://www.ft.com/rss/home/europe",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Business - Emerging Europe",
+    "url": "http://blogs.wsj.com/emergingeurope/feed/?mod=emergingeurope&mg=blogswsj&url=http%253A%252F%252Fblogs.wsj.com%252Femergingeurope%252Ffeed%253Fmod%253Demergingeurope",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Gaming - Eurogamer",
+    "url": "http://www.eurogamer.net/?format=rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Gaming - The Guardian",
+    "url": "http://www.theguardian.com/technology/games/rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Gaming - Daily Star",
+    "url": "http://feeds.feedburner.com/daily-star-Gaming",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Gaming - Metro",
+    "url": "http://metro.co.uk/entertainment/gaming/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Gaming - The Economist",
+    "url": "http://www.economist.com/sections/business-finance/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Health - The Guardian Life and Style",
+    "url": "http://www.theguardian.com/us/lifeandstyle/rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Health - The Guardian Health and Wellbeing",
+    "url": "http://www.theguardian.com/lifeandstyle/health-and-wellbeing/rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Health - The Guardian Fashion",
+    "url": "http://www.theguardian.com/fashion/rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Health - The Guardian Travel",
+    "url": "http://www.theguardian.com/travel/rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Health - BBC",
+    "url": "http://feeds.bbci.co.uk/news/health/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Health - The Independent",
+    "url": "http://www.independent.co.uk/life-style/health-and-families/health-news/rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Health - The Express",
+    "url": "http://www.express.co.uk/posts/rss/11/health",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Health - The Times",
+    "url": "http://www.thetimes.co.uk/tto/health/rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Health - Huffington Post UK Lifestyle",
+    "url": "http://www.huffingtonpost.com/feeds/verticals/uk-lifestyle/index.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Health - The Standard",
+    "url": "http://www.standard.co.uk/lifestyle/rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Health - BBC UK",
+    "url": "http://feeds.bbci.co.uk/news/uk/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Health - The Telegraph Health",
+    "url": "http://www.telegraph.co.uk/health/rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Health - Daily Mail Health",
+    "url": "http://www.dailymail.co.uk/health/index.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Health - OK! Health",
+    "url": "http://www.ok.co.uk/rss/health",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Health - Hello! Magazine",
+    "url": "http://www.hellomagazine.com/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Health - My Natural Lifestyle",
+    "url": "http://www.mynaturallifestyle.co.uk/naturallifestyle/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Health - Candis",
+    "url": "http://www.candis.co.uk/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Health - Soar Magazine",
+    "url": "http://www.soarmagazine.co.uk/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Science - The Guardian Environment",
+    "url": "http://www.theguardian.com/uk/environment/rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Science - The Economist",
+    "url": "http://www.economist.com/sections/science-technology/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Science - New Scientist",
+    "url": "https://www.newscientist.com/feed/home",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Science - The Guardian Science",
+    "url": "http://feeds.theguardian.com/theguardian/science/rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Science - BBC Science and Environment",
+    "url": "http://feeds.bbci.co.uk/news/science_and_environment/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Science - The Independent Science",
+    "url": "http://www.independent.co.uk/news/science/rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Science - Wired UK",
+    "url": "http://www.wired.co.uk/news/rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Science - The Telegraph Science",
+    "url": "http://www.telegraph.co.uk/science/science-news/rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Science - The Register",
+    "url": "http://www.theregister.co.uk/science/headlines.atom",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Science - Daily Mail ScienceTech",
+    "url": "http://www.dailymail.co.uk/sciencetech/articles.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Science - The Mirror Science",
+    "url": "http://www.mirror.co.uk/news/technology-science/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Science - IBTimes UK Science",
+    "url": "http://www.ibtimes.co.uk/rss/science",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Science - In.com Science",
+    "url": "http://www.in.com/rss/news/sci-tech",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Sports - The Guardian Football",
+    "url": "http://www.theguardian.com/football/rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Sports - The Week Sport",
+    "url": "http://www.theweek.co.uk/feeds/sport",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Sports - Daily Express Sport",
+    "url": "http://feeds.feedburner.com/daily-express-sport-news",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Sports - The Mirror Sport",
+    "url": "http://www.mirror.co.uk/sport/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Sports - Sport.co.uk",
+    "url": "http://feeds.feedburner.com/SportcoukNewsRssFeed",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Sports - The Standard Football",
+    "url": "http://www.standard.co.uk/sport/football/rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Sports - Sky Sports Football",
+    "url": "http://www.skysports.com/rss/0,20514,12040,00.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Sports - Sky Sports Cricket",
+    "url": "http://www.skysports.com/rss/0,20514,20876,00.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Sports - The Guardian Sport",
+    "url": "http://feeds.theguardian.com/theguardian/uk/sport/rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Sports - BBC Sport UK",
+    "url": "http://feeds.bbci.co.uk/sport/0/rss.xml?edition=uk",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Sports - Daily Mail Sport",
+    "url": "http://www.dailymail.co.uk/sport/index.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Sports - Huffington Post UK Sport",
+    "url": "http://www.huffingtonpost.co.uk/feeds/verticals/uk-sport/index.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Sports - The Telegraph Sport",
+    "url": "http://www.telegraph.co.uk/sport/rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Sports - Metro Sport",
+    "url": "http://metro.co.uk/sport/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Sports - Feeds Portal Sport",
+    "url": "http://rss.feedsportal.com/c/266/f/3784/index.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Sports - Eurosport UK",
+    "url": "https://uk.eurosport.yahoo.com/eurosport/tickerdb/sport/0.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Tech - Gizmodo UK",
+    "url": "http://feeds.feedburner.com/uk/gizmodo",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Tech - Sky News Technology",
+    "url": "http://feeds.skynews.com/feeds/rss/technology.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Tech - Feeds Portal Technology",
+    "url": "http://rss.feedsportal.com/c/559/f/7174/index.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Tech - Huffington Post UK Tech",
+    "url": "http://www.huffingtonpost.co.uk/feeds/verticals/uk-tech/index.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Tech - TechCrunch Europe",
+    "url": "http://techcrunch.com/europe/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Tech - TechRepublic European Technology",
+    "url": "http://www.techrepublic.com/rssfeeds/blog/european-technology/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Tech - The Guardian Technology",
+    "url": "http://feeds.theguardian.com/theguardian/technology/rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Tech - BBC Technology",
+    "url": "http://feeds.bbci.co.uk/news/technology/rss.xml#",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Tech - Technet UK",
+    "url": "http://blogs.technet.com/b/uktechnet/rss.aspx",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Tech - Which UK Technology",
+    "url": "http://blogs.which.co.uk/technology/feed/atom/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Tech - TechRadar",
+    "url": "http://feeds.webservice.techradar.com/rss/new",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Entertainment - E! Online",
+    "url": "http://syndication.eonline.com/syndication/feeds/rssfeeds/topstories.xml?edition=uk",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Entertainment - Express Showbiz",
+    "url": "http://www.express.co.uk/posts/rss/79/showbiznews",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Entertainment - Metro Showbiz",
+    "url": "http://metro.co.uk/entertainment/showbiz/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Entertainment - Sky News Entertainment",
+    "url": "http://feeds.skynews.com/feeds/rss/entertainment.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Entertainment - CelebsNow",
+    "url": "http://www.celebsnow.co.uk/feed",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Entertainment - Huffington Post Celebrity",
+    "url": "http://www.huffingtonpost.co.uk/news/celebrity/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Entertainment - The Standard Showbiz",
+    "url": "http://www.standard.co.uk/showbiz/rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "GB Entertainment - The Independent Entertainment",
+    "url": "http://www.independent.co.uk/life-style/entertainment/entertainment-news/rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Politics - Crikey",
+    "url": "http://www.crikey.com.au/politics/feed",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Politics - The Economist",
+    "url": "http://www.economist.com/topics/australia/index.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Politics - The Guardian",
+    "url": "http://www.theguardian.com/world/australian-politics/rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Politics - Mashable",
+    "url": "http://mashable.com/category/australian-politics/rss/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Business - Business Spectator",
+    "url": "http://www.businessspectator.com.au/bs/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Business - CIO",
+    "url": "http://www.cio.com/index.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Business - Dynamic Business",
+    "url": "http://www.dynamicbusiness.com.au/feed",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Business - The Australian Business News",
+    "url": "http://feeds.feedburner.com/TheAustralianBusNews?format=xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Business - The Australian Business Aviation",
+    "url": "http://feeds.feedburner.com/TheAustralianBusAviation?format=xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Business - The Australian Business World",
+    "url": "http://feeds.feedburner.com/TheAustralianBusinessWorldBusNews?format=xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Business - News.com.au Business",
+    "url": "http://feeds.news.com.au/public/rss/2.0/business_top_stories_346.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Business - ABC News Business",
+    "url": "http://www.abc.net.au/news/feed/51892/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Business - SMH Business",
+    "url": "http://www.smh.com.au/rssheadlines/business.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Business - Herald Sun Business",
+    "url": "http://feeds.news.com.au/heraldsun/rss/heraldsun_news_business_2783.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Business - ABNS",
+    "url": "http://abns.com.au/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Health - SMH Health",
+    "url": "http://www.smh.com.au/rssheadlines/health/article/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Health - Women's Health and Fitness",
+    "url": "http://www.womenshealthandfitness.com.au/component/obrss/women-s-health-fitnesscombined-feed?format=",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Health - News.com.au Lifestyle",
+    "url": "http://feeds.news.com.au/public/rss/2.0/news_lifestyle_3171.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Health - The Telegraph Health",
+    "url": "http://www.telegraph.co.uk/health/rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Health - Shape Magazine",
+    "url": "http://www.shapemagazine.com.au/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Health - Alive Magazine",
+    "url": "http://www.alive.com/articles/rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Health - Wellbeing",
+    "url": "http://www.wellbeing.com.au/blog/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Health - Men's Fitness Australia",
+    "url": "http://www.mensfitnessmagazine.com.au/topics/health-nutrition/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Health - Daily Record Health and Fitness",
+    "url": "http://www.dailyrecord.co.uk/lifestyle/health-fitness/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Health - Star Observer Health",
+    "url": "http://www.starobserver.com.au/category/features/healthy-living/feed",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Science - News.com.au Tech",
+    "url": "http://feeds.news.com.au/public/rss/2.0/news_tech_506.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Science - SMH Health",
+    "url": "http://www.smh.com.au/rssheadlines/health/article/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Science - SBS News Science and Technology",
+    "url": "http://www.sbs.com.au/news/rss/news/science-technology.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Science - The Age Technology",
+    "url": "http://www.theage.com.au/rssheadlines/technology-news/article/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Science - WA Today Technology",
+    "url": "http://www.watoday.com.au/rssheadlines/technology-news/article/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Science - Australian Science",
+    "url": "http://www.australianscience.com.au/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Science - Science Week",
+    "url": "http://www.scienceweek.net.au/homepage/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Sports - News.com.au Breaking Sports News",
+    "url": "http://feeds.news.com.au/public/rss/2.0/fs_breaking_news_13.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Sports - ABC News Sport",
+    "url": "http://www.abc.net.au/news/feed/45924/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Sports - The Australian Sports News",
+    "url": "http://feeds.feedburner.com/TheAustralianSportsNews",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Sports - News.com.au Sport",
+    "url": "http://feeds.news.com.au/public/rss/2.0/news_sport_3168.xml",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:31.250007"
+  },
+  {
+    "name": "AU Sports - SMH Sport",
+    "url": "http://feeds.smh.com.au/rssheadlines/sport.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Sports - The Age Sport",
+    "url": "http://feeds.theage.com.au/rssheadlines/sport.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Sports - News.com.au Local Sport",
+    "url": "http://feeds.news.com.au/rss/newslocal/dt_nlocal_sport_3214.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Sports - Herald Sun Sport",
+    "url": "http://feeds.news.com.au/heraldsun/rss/heraldsun_news_sport_2789.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Sports - BBC Cricket",
+    "url": "http://feeds.bbci.co.uk/sport/0/cricket/rss.xml?edition=uk",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Sports - SBS Sports",
+    "url": "http://sbs.feedsportal.com/c/34692/f/637526/index.rss",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Sports - Wide World of Sports",
+    "url": "http://wwos.ninemsn.com.au/rss/headlines/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Tech - Gizmodo Australia",
+    "url": "http://feeds.gizmodo.com.au/gizmodoaustraliaau",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Tech - SMH Technology",
+    "url": "http://www.smh.com.au/rssheadlines/technology-news/article/rss.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Tech - News.com.au IT Executives Top Stories",
+    "url": "http://feeds.news.com.au/public/rss/2.0/ausit_exec_topstories_385.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Tech - Herald Sun Technology",
+    "url": "http://feeds.news.com.au/heraldsun/rss/heraldsun_news_technology_2790.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Tech - News.com.au Tech",
+    "url": "http://feeds.news.com.au/public/rss/2.0/news_tech_506.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Tech - TechAU",
+    "url": "http://techau.com.au/feed/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Tech - TechRepublic Australian Technology",
+    "url": "http://www.techrepublic.com/rssfeeds/blog/australian-technology/",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Entertainment - SMH Entertainment",
+    "url": "http://feeds.smh.com.au/rssheadlines/entertainment.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Entertainment - News.com.au Entertainment",
+    "url": "http://www.news.com.au/entertainment",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Entertainment - News.com.au Entertainment Top Stories",
+    "url": "http://feeds.news.com.au/public/rss/2.0/cpost_news_entertainment_3329.xml",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Entertainment - News.com.au",
+    "url": "http://feeds.news.com.au/public/rss/2.0/The%20Mercury%20|%20Entertainment_3306.xml",
+    "interval": 900,
+    "priority": "medium",
+    "error_count": 0,
+    "last_updated": "2025-04-27T20:54:34.705035"
+  },
+  {
+    "name": "AU Entertainment - Gold Coast Bulletin Entertainment",
+    "url": "http://www.goldcoastbulletin.com.au/entertainment",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Entertainment - Spotlight Report",
+    "url": "http://www.spotlightreport.net/feed",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Entertainment - PopSugar Australia Celebrity",
+    "url": "http://www.popsugar.com.au/celebrity/feed",
+    "interval": 900,
+    "priority": "medium"
+  },
+  {
+    "name": "AU Entertainment - OK! Magazine Australia",
+    "url": "http://www.okmagazine.com.au/rss.axd?channel=entertainment_articles",
+    "interval": 900,
+    "priority": "medium"
+  }
+]

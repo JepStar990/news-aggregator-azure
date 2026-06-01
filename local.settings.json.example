@@ -1,0 +1,15 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "STORAGE_CONNECTION_STRING": "DefaultEndpointsProtocol=http;AccountName=devstoreaccount1;AccountKey=Eby8vdM02xNOcqFlqUwJPLlmEtlCDXJ1OUzFT50uSRZ6IFsuFq2UVErCz4I6tq/K1SZFPTOtr/KBHBeksoGMGw==;BlobEndpoint=http://127.0.0.1:10000/devstoreaccount1;QueueEndpoint=http://127.0.0.1:10001/devstoreaccount1;TableEndpoint=http://127.0.0.1:10002/devstoreaccount1;",
+    "QUEUE_NAME": "article-ingest",
+    "DEAD_LETTER_QUEUE_NAME": "article-dead-letter",
+    "CONTAINER_NAME": "news-data",
+    "TABLE_NAME": "ArticleIndex",
+    "MAX_CONCURRENCY": "10",
+    "REQUEST_TIMEOUT": "10",
+    "RATE_LIMIT_DELAY": "0.5"
+  }
+}

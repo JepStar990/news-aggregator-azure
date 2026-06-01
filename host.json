@@ -1,0 +1,26 @@
+{
+  "version": "2.0",
+  "functionTimeout": "00:09:50",
+  "logging": {
+    "applicationInsights": {
+      "samplingSettings": {
+        "isEnabled": true,
+        "excludedTypes": "Request"
+      }
+    },
+    "logLevel": {
+      "default": "Warning",
+      "Function.RSSFetcher": "Information",
+      "Function.ArticleProcessor": "Information"
+    }
+  },
+  "extensions": {
+    "queues": {
+      "maxPollingInterval": "00:00:02",
+      "visibilityTimeout": "00:01:00",
+      "batchSize": 16,
+      "maxDequeueCount": 5,
+      "newBatchThreshold": 8
+    }
+  }
+}
