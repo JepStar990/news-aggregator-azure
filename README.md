@@ -19,7 +19,7 @@ flowchart TB
     end
 
     T -->|validated articles| Q[(Queue Storage<br/>article-ingest)]
-    Q --> D["future: NLP / categorise<br/>QueueTrigger Function"]
+    Q --> D["QueueTrigger<br/>ArticleProcessor<br/>NLP / categorise"]
 
     T -->|raw XML| B[(Blob Storage<br/>raw-feeds / parsed-articles)]
     T -->|metadata| TS[(Table Storage<br/>ArticleIndex)]
@@ -80,7 +80,9 @@ news-aggregator-azure/
 │   │   ├── HealthEndpoint/
 │   │   │   ├── __init__.py          ← HTTPTrigger entry point
 │   │   │   └── function.json
-│   │   └── ArticleProcessor/        ← future: QueueTrigger
+│   │   └── ArticleProcessor/
+│   │       ├── __init__.py          ← QueueTrigger entry point
+│   │       └── function.json
 │   ├── publishers/
 │   │   └── queue_publisher.py       ← Queue Storage replacement for Kafka
 │   ├── storage/
@@ -104,7 +106,7 @@ news-aggregator-azure/
 
 ```bash
 # Prerequisites: Python 3.11+, Azure Functions Core Tools, Azurite
-npm install -g azure-functions-core-tools@4
+npm install -g azure-functions-core-tools@4 azurite
 
 # Clone
 git clone https://github.com/JepStar990/news-aggregator-azure.git
@@ -114,12 +116,28 @@ cd news-aggregator-azure
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 
-# Start Azurite (local Azure Storage emulator)
-azurite --silent --location ~/.azurite &
+# Start Azurite (local Azure Storage emulator) with API version workaround
+azurite --silent --location ~/.azurite --skipApiVersionCheck &
 
-# Run
+# Run tests
 cp local.settings.json.example local.settings.json
+export STORAGE_CONNECTION_STRING="DefaultEndpointsProtocol=http;AccountName=devstoreaccount1;AccountKey=Eby8vdM02xNOcqFlqUwJPLlmEtlCDXJ1OUzFT50uSRZ6IFsuFq2UVErCz4I6tq/K1SZFPTOtr/KBHBeksoGMGw==;BlobEndpoint=http://127.0.0.1:10000/devstoreaccount1;QueueEndpoint=http://127.0.0.1:10001/devstoreaccount1;TableEndpoint=http://127.0.0.1:10002/devstoreaccount1"
+python -m pytest tests/ -v
+
+# Or start the functions runtime
 func start
+```
+
+## Production Deployment
+
+```bash
+# Deploy infrastructure
+az deployment group create \
+  --resource-group rg-news-aggregator \
+  --template-file infra/main.bicep
+
+# Deploy function code
+func azure functionapp publish func-newsaggregator
 ```
 
 ## Migration from Original Pipeline

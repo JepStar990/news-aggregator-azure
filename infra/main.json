@@ -1,28 +1,38 @@
 {
   "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
   "contentVersion": "1.0.0.0",
+  "metadata": {
+    "_generator": {
+      "name": "bicep",
+      "version": "0.43.8.12551",
+      "templateHash": "13618119290368887291"
+    }
+  },
   "parameters": {
     "location": {
       "type": "string",
       "defaultValue": "southafricanorth",
-      "metadata": { "description": "Azure region for all resources" }
+      "metadata": {
+        "description": "Azure region for all resources"
+      }
     },
     "appName": {
       "type": "string",
       "defaultValue": "newsaggregator",
-      "metadata": { "description": "Name prefix for all resources" }
+      "metadata": {
+        "description": "Name prefix — all resources derive from this"
+      }
     }
   },
   "variables": {
-    "storageName": "[concat('stnsagg', uniqueString(resourceGroup().id))]",
-    "funcAppName": "[concat('func-', parameters('appName'))]",
-    "appInsightsName": "[concat('appi-', parameters('appName'))]",
-    "planName": "[concat('asp-', parameters('appName'))]",
-    "logWorkspaceName": "[concat('log-', parameters('appName'))]",
+    "storageName": "[format('stnagg{0}', uniqueString(resourceGroup().id))]",
+    "funcAppName": "[format('func-{0}', parameters('appName'))]",
+    "appInsightsName": "[format('appi-{0}', parameters('appName'))]",
     "queueArticleIngest": "article-ingest",
     "queueDeadLetter": "article-dead-letter",
     "containerName": "news-data",
     "tableName": "ArticleIndex",
+    "planName": "[format('asp-{0}', parameters('appName'))]",
     "blobDataContributor": "ba92f5b4-2d11-453d-a403-e96b0029c9fe",
     "queueDataContributor": "974c5e8b-45b9-4653-ba55-5f855dd0fb88",
     "tableDataContributor": "0a9a7e1f-b9d0-4cc4-a60d-0319b160aaa3"
@@ -34,52 +44,46 @@
       "name": "[variables('storageName')]",
       "location": "[parameters('location')]",
       "kind": "StorageV2",
-      "sku": { "name": "Standard_LRS" },
+      "sku": {
+        "name": "Standard_LRS"
+      },
       "properties": {
         "accessTier": "Hot",
         "allowBlobPublicAccess": false,
         "minimumTlsVersion": "TLS1_2"
-      },
-      "resources": [
-        {
-          "type": "queueServices/queues",
-          "apiVersion": "2023-01-01",
-          "name": "[concat('default/', variables('queueArticleIngest'))]",
-          "dependsOn": ["[variables('storageName')]"],
-          "properties": {}
-        },
-        {
-          "type": "queueServices/queues",
-          "apiVersion": "2023-01-01",
-          "name": "[concat('default/', variables('queueDeadLetter'))]",
-          "dependsOn": ["[variables('storageName')]"],
-          "properties": {}
-        },
-        {
-          "type": "blobServices/containers",
-          "apiVersion": "2023-01-01",
-          "name": "[concat('default/', variables('containerName'))]",
-          "dependsOn": ["[variables('storageName')]"],
-          "properties": {}
-        },
-        {
-          "type": "tableServices/tables",
-          "apiVersion": "2023-01-01",
-          "name": "[concat('default/', variables('tableName'))]",
-          "dependsOn": ["[variables('storageName')]"],
-          "properties": {}
-        }
+      }
+    },
+    {
+      "type": "Microsoft.Storage/storageAccounts/queueServices/queues",
+      "apiVersion": "2023-01-01",
+      "name": "[format('{0}/default/{1}', variables('storageName'), variables('queueArticleIngest'))]",
+      "dependsOn": [
+        "[resourceId('Microsoft.Storage/storageAccounts', variables('storageName'))]"
       ]
     },
     {
-      "type": "Microsoft.OperationalInsights/workspaces",
-      "apiVersion": "2022-10-01",
-      "name": "[variables('logWorkspaceName')]",
-      "location": "[parameters('location')]",
-      "properties": {
-        "sku": { "name": "PerGB2018" },
-        "retentionInDays": 30
-      }
+      "type": "Microsoft.Storage/storageAccounts/queueServices/queues",
+      "apiVersion": "2023-01-01",
+      "name": "[format('{0}/default/{1}', variables('storageName'), variables('queueDeadLetter'))]",
+      "dependsOn": [
+        "[resourceId('Microsoft.Storage/storageAccounts', variables('storageName'))]"
+      ]
+    },
+    {
+      "type": "Microsoft.Storage/storageAccounts/blobServices/containers",
+      "apiVersion": "2023-01-01",
+      "name": "[format('{0}/default/{1}', variables('storageName'), variables('containerName'))]",
+      "dependsOn": [
+        "[resourceId('Microsoft.Storage/storageAccounts', variables('storageName'))]"
+      ]
+    },
+    {
+      "type": "Microsoft.Storage/storageAccounts/tableServices/tables",
+      "apiVersion": "2023-01-01",
+      "name": "[format('{0}/default/{1}', variables('storageName'), variables('tableName'))]",
+      "dependsOn": [
+        "[resourceId('Microsoft.Storage/storageAccounts', variables('storageName'))]"
+      ]
     },
     {
       "type": "Microsoft.Insights/components",
@@ -87,14 +91,28 @@
       "name": "[variables('appInsightsName')]",
       "location": "[parameters('location')]",
       "kind": "web",
-      "dependsOn": ["[resourceId('Microsoft.OperationalInsights/workspaces', variables('logWorkspaceName'))]"],
       "properties": {
         "Application_Type": "web",
-        "WorkspaceResourceId": "[resourceId('Microsoft.OperationalInsights/workspaces', variables('logWorkspaceName'))]"
+        "WorkspaceResourceId": "[resourceId('Microsoft.OperationalInsights/workspaces', format('log-{0}', parameters('appName')))]"
+      },
+      "dependsOn": [
+        "[resourceId('Microsoft.OperationalInsights/workspaces', format('log-{0}', parameters('appName')))]"
+      ]
+    },
+    {
+      "type": "Microsoft.OperationalInsights/workspaces",
+      "apiVersion": "2022-10-01",
+      "name": "[format('log-{0}', parameters('appName'))]",
+      "location": "[parameters('location')]",
+      "properties": {
+        "sku": {
+          "name": "PerGB2018"
+        },
+        "retentionInDays": 30
       }
     },
     {
-      "type": "Microsoft.Web/serverFarms",
+      "type": "Microsoft.Web/serverfarms",
       "apiVersion": "2023-01-01",
       "name": "[variables('planName')]",
       "location": "[parameters('location')]",
@@ -113,14 +131,11 @@
       "name": "[variables('funcAppName')]",
       "location": "[parameters('location')]",
       "kind": "functionapp,linux",
-      "identity": { "type": "SystemAssigned" },
-      "dependsOn": [
-        "[resourceId('Microsoft.Web/serverFarms', variables('planName'))]",
-        "[resourceId('Microsoft.Storage/storageAccounts', variables('storageName'))]",
-        "[resourceId('Microsoft.Insights/components', variables('appInsightsName'))]"
-      ],
+      "identity": {
+        "type": "SystemAssigned"
+      },
       "properties": {
-        "serverFarmId": "[resourceId('Microsoft.Web/serverFarms', variables('planName'))]",
+        "serverFarmId": "[resourceId('Microsoft.Web/serverfarms', variables('planName'))]",
         "httpsOnly": true,
         "siteConfig": {
           "linuxFxVersion": "Python|3.11",
@@ -129,76 +144,186 @@
           "appSettings": [
             {
               "name": "AzureWebJobsStorage",
-              "value": "[concat('DefaultEndpointsProtocol=https;AccountName=', variables('storageName'), ';AccountKey=', listKeys(resourceId('Microsoft.Storage/storageAccounts', variables('storageName')), '2023-01-01').keys[0].value, ';EndpointSuffix=core.windows.net')]"
+              "value": "[format('DefaultEndpointsProtocol=https;AccountName={0};AccountKey={1};EndpointSuffix=core.windows.net', variables('storageName'), listKeys(resourceId('Microsoft.Storage/storageAccounts', variables('storageName')), '2023-01-01').keys[0].value)]"
             },
-            { "name": "FUNCTIONS_WORKER_RUNTIME", "value": "python" },
+            {
+              "name": "FUNCTIONS_WORKER_RUNTIME",
+              "value": "python"
+            },
             {
               "name": "APPLICATIONINSIGHTS_CONNECTION_STRING",
               "value": "[reference(resourceId('Microsoft.Insights/components', variables('appInsightsName')), '2020-02-02').ConnectionString]"
             },
             {
               "name": "STORAGE_CONNECTION_STRING",
-              "value": "[concat('DefaultEndpointsProtocol=https;AccountName=', variables('storageName'), ';AccountKey=', listKeys(resourceId('Microsoft.Storage/storageAccounts', variables('storageName')), '2023-01-01').keys[0].value, ';EndpointSuffix=core.windows.net')]"
+              "value": "[format('DefaultEndpointsProtocol=https;AccountName={0};AccountKey={1};EndpointSuffix=core.windows.net', variables('storageName'), listKeys(resourceId('Microsoft.Storage/storageAccounts', variables('storageName')), '2023-01-01').keys[0].value)]"
             },
-            { "name": "QUEUE_NAME", "value": "[variables('queueArticleIngest')]" },
-            { "name": "DEAD_LETTER_QUEUE_NAME", "value": "[variables('queueDeadLetter')]" },
-            { "name": "CONTAINER_NAME", "value": "[variables('containerName')]" },
-            { "name": "TABLE_NAME", "value": "[variables('tableName')]" }
+            {
+              "name": "QUEUE_NAME",
+              "value": "[variables('queueArticleIngest')]"
+            },
+            {
+              "name": "DEAD_LETTER_QUEUE_NAME",
+              "value": "[variables('queueDeadLetter')]"
+            },
+            {
+              "name": "CONTAINER_NAME",
+              "value": "[variables('containerName')]"
+            },
+            {
+              "name": "TABLE_NAME",
+              "value": "[variables('tableName')]"
+            }
           ]
         }
-      }
+      },
+      "dependsOn": [
+        "[resourceId('Microsoft.Insights/components', variables('appInsightsName'))]",
+        "[resourceId('Microsoft.Web/serverfarms', variables('planName'))]",
+        "[resourceId('Microsoft.Storage/storageAccounts', variables('storageName'))]"
+      ]
     },
     {
       "type": "Microsoft.Authorization/roleAssignments",
       "apiVersion": "2022-04-01",
+      "scope": "[resourceId('Microsoft.Storage/storageAccounts', variables('storageName'))]",
       "name": "[guid(resourceId('Microsoft.Web/sites', variables('funcAppName')), resourceId('Microsoft.Storage/storageAccounts', variables('storageName')), 'blob')]",
-      "scope": "[format('Microsoft.Storage/storageAccounts/{0}', variables('storageName'))]",
+      "properties": {
+        "roleDefinitionId": "[format('{0}/providers/Microsoft.Authorization/roleDefinitions/{1}', subscription().id, variables('blobDataContributor'))]",
+        "principalId": "[reference(resourceId('Microsoft.Web/sites', variables('funcAppName')), '2023-01-01', 'full').identity.principalId]",
+        "principalType": "ServicePrincipal"
+      },
       "dependsOn": [
         "[resourceId('Microsoft.Web/sites', variables('funcAppName'))]",
         "[resourceId('Microsoft.Storage/storageAccounts', variables('storageName'))]"
-      ],
-      "properties": {
-        "roleDefinitionId": "[subscriptionResourceId('Microsoft.Authorization/roleDefinitions', variables('blobDataContributor'))]",
-        "principalId": "[reference(resourceId('Microsoft.Web/sites', variables('funcAppName')), '2023-01-01', 'Full').identity.principalId]",
-        "principalType": "ServicePrincipal"
-      }
+      ]
     },
     {
       "type": "Microsoft.Authorization/roleAssignments",
       "apiVersion": "2022-04-01",
+      "scope": "[resourceId('Microsoft.Storage/storageAccounts', variables('storageName'))]",
       "name": "[guid(resourceId('Microsoft.Web/sites', variables('funcAppName')), resourceId('Microsoft.Storage/storageAccounts', variables('storageName')), 'queue')]",
-      "scope": "[format('Microsoft.Storage/storageAccounts/{0}', variables('storageName'))]",
+      "properties": {
+        "roleDefinitionId": "[format('{0}/providers/Microsoft.Authorization/roleDefinitions/{1}', subscription().id, variables('queueDataContributor'))]",
+        "principalId": "[reference(resourceId('Microsoft.Web/sites', variables('funcAppName')), '2023-01-01', 'full').identity.principalId]",
+        "principalType": "ServicePrincipal"
+      },
       "dependsOn": [
         "[resourceId('Microsoft.Web/sites', variables('funcAppName'))]",
         "[resourceId('Microsoft.Storage/storageAccounts', variables('storageName'))]"
-      ],
-      "properties": {
-        "roleDefinitionId": "[subscriptionResourceId('Microsoft.Authorization/roleDefinitions', variables('queueDataContributor'))]",
-        "principalId": "[reference(resourceId('Microsoft.Web/sites', variables('funcAppName')), '2023-01-01', 'Full').identity.principalId]",
-        "principalType": "ServicePrincipal"
-      }
+      ]
     },
     {
       "type": "Microsoft.Authorization/roleAssignments",
       "apiVersion": "2022-04-01",
+      "scope": "[resourceId('Microsoft.Storage/storageAccounts', variables('storageName'))]",
       "name": "[guid(resourceId('Microsoft.Web/sites', variables('funcAppName')), resourceId('Microsoft.Storage/storageAccounts', variables('storageName')), 'table')]",
-      "scope": "[format('Microsoft.Storage/storageAccounts/{0}', variables('storageName'))]",
+      "properties": {
+        "roleDefinitionId": "[format('{0}/providers/Microsoft.Authorization/roleDefinitions/{1}', subscription().id, variables('tableDataContributor'))]",
+        "principalId": "[reference(resourceId('Microsoft.Web/sites', variables('funcAppName')), '2023-01-01', 'full').identity.principalId]",
+        "principalType": "ServicePrincipal"
+      },
       "dependsOn": [
         "[resourceId('Microsoft.Web/sites', variables('funcAppName'))]",
         "[resourceId('Microsoft.Storage/storageAccounts', variables('storageName'))]"
-      ],
+      ]
+    },
+    {
+      "type": "Microsoft.Storage/storageAccounts/blobServices",
+      "apiVersion": "2023-01-01",
+      "name": "[format('{0}/default', variables('storageName'))]",
+      "dependsOn": [
+        "[resourceId('Microsoft.Storage/storageAccounts', variables('storageName'))]"
+      ]
+    },
+    {
+      "type": "Microsoft.Storage/storageAccounts/managementPolicies",
+      "apiVersion": "2023-01-01",
+      "name": "[format('{0}/default', variables('storageName'))]",
       "properties": {
-        "roleDefinitionId": "[subscriptionResourceId('Microsoft.Authorization/roleDefinitions', variables('tableDataContributor'))]",
-        "principalId": "[reference(resourceId('Microsoft.Web/sites', variables('funcAppName')), '2023-01-01', 'Full').identity.principalId]",
-        "principalType": "ServicePrincipal"
-      }
+        "policy": {
+          "rules": [
+            {
+              "name": "archive-raw-feeds-after-90d",
+              "type": "Lifecycle",
+              "enabled": true,
+              "definition": {
+                "filters": {
+                  "blobTypes": [
+                    "blockBlob"
+                  ],
+                  "prefixMatch": [
+                    "raw-feeds/",
+                    "parsed-articles/"
+                  ]
+                },
+                "actions": {
+                  "baseBlob": {
+                    "tierToArchive": {
+                      "daysAfterModificationGreaterThan": 90
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "name": "delete-dead-letter-after-365d",
+              "type": "Lifecycle",
+              "enabled": true,
+              "definition": {
+                "filters": {
+                  "blobTypes": [
+                    "blockBlob"
+                  ],
+                  "prefixMatch": [
+                    "dead-letter/"
+                  ]
+                },
+                "actions": {
+                  "baseBlob": {
+                    "delete": {
+                      "daysAfterModificationGreaterThan": 365
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "dependsOn": [
+        "[resourceId('Microsoft.Storage/storageAccounts', variables('storageName'))]"
+      ]
     }
   ],
   "outputs": {
-    "functionAppName": { "type": "string", "value": "[variables('funcAppName')]" },
-    "functionAppUrl": { "type": "string", "value": "[concat('https://', reference(resourceId('Microsoft.Web/sites', variables('funcAppName')), '2023-01-01').defaultHostName)]" },
-    "storageAccountName": { "type": "string", "value": "[variables('storageName')]" },
-    "healthEndpoint": { "type": "string", "value": "[concat('https://', reference(resourceId('Microsoft.Web/sites', variables('funcAppName')), '2023-01-01').defaultHostName, '/api/health')]" },
-    "resourceGroup": { "type": "string", "value": "[resourceGroup().name]" }
+    "functionAppName": {
+      "type": "string",
+      "value": "[variables('funcAppName')]"
+    },
+    "functionAppUrl": {
+      "type": "string",
+      "value": "[format('https://{0}', reference(resourceId('Microsoft.Web/sites', variables('funcAppName')), '2023-01-01').defaultHostName)]"
+    },
+    "storageAccountName": {
+      "type": "string",
+      "value": "[variables('storageName')]"
+    },
+    "applicationInsightsName": {
+      "type": "string",
+      "value": "[variables('appInsightsName')]"
+    },
+    "appInsightsConnectionString": {
+      "type": "string",
+      "value": "[reference(resourceId('Microsoft.Insights/components', variables('appInsightsName')), '2020-02-02').ConnectionString]"
+    },
+    "resourceGroup": {
+      "type": "string",
+      "value": "[resourceGroup().name]"
+    },
+    "healthEndpoint": {
+      "type": "string",
+      "value": "[format('https://{0}/api/health', reference(resourceId('Microsoft.Web/sites', variables('funcAppName')), '2023-01-01').defaultHostName)]"
+    }
   }
 }

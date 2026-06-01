@@ -4,7 +4,7 @@ param location string = 'southafricanorth'
 @description('Name prefix — all resources derive from this')
 param appName string = 'newsaggregator'
 
-var storageName = 'st${appName}${uniqueString(resourceGroup().id)}'
+var storageName = 'stnagg${uniqueString(resourceGroup().id)}'
 var funcAppName = 'func-${appName}'
 var appInsightsName = 'appi-${appName}'
 var queueArticleIngest = 'article-ingest'
@@ -169,6 +169,55 @@ resource tableRole 'Microsoft.Authorization/roleAssignments@2022-04-01' = {
     roleDefinitionId: '${subscription().id}/providers/Microsoft.Authorization/roleDefinitions/${tableDataContributor}'
     principalId: funcApp.identity.principalId
     principalType: 'ServicePrincipal'
+  }
+}
+
+// =============================================================================
+// Blob Lifecycle Management — auto-archive raw feeds after 90 days
+// =============================================================================
+resource blobLifecycle 'Microsoft.Storage/storageAccounts/blobServices@2023-01-01' = {
+  name: '${storage.name}/default'
+}
+
+resource lifecyclePolicy 'Microsoft.Storage/storageAccounts/managementPolicies@2023-01-01' = {
+  name: '${storage.name}/default'
+  properties: {
+    policy: {
+      rules: [
+        {
+          name: 'archive-raw-feeds-after-90d'
+          type: 'Lifecycle'
+          enabled: true
+          definition: {
+            filters: {
+              blobTypes: ['blockBlob']
+              prefixMatch: ['raw-feeds/', 'parsed-articles/']
+            }
+            actions: {
+              baseBlob: {
+                tierToArchive: { daysAfterModificationGreaterThan: 90 }
+              }
+            }
+          }
+        }
+        {
+          name: 'delete-dead-letter-after-365d'
+          type: 'Lifecycle'
+          enabled: true
+          definition: {
+            filters: {
+              blobTypes: ['blockBlob']
+              prefixMatch: ['dead-letter/']
+            }
+            actions: {
+              baseBlob: {
+                delete: { daysAfterModificationGreaterThan: 365 }
+              }
+            }
+          }
+        }
+      ]
+    }
   }
 }
 

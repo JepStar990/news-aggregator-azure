@@ -83,6 +83,37 @@ class BlobManager:
             logger.error("Failed to save dead-letter for %s: %s", feed_name, e)
             raise
 
+    def save_json(self, blob_name: str, data: Dict[str, Any]) -> str:
+        """Save an arbitrary JSON-serializable dict as a blob.
+
+        Used for system state persistence (ETag cache, feed health).
+        """
+        payload = json.dumps(data, ensure_ascii=False, indent=2)
+        try:
+            blob = self.client.get_blob_client(
+                container=self.container_name, blob=blob_name)
+            blob.upload_blob(payload.encode("utf-8"), overwrite=True)
+            return blob_name
+        except AzureError as e:
+            logger.error("Failed to save JSON blob %s: %s", blob_name, e)
+            raise
+
+    def read_json(self, blob_name: str) -> Optional[Dict[str, Any]]:
+        """Read a JSON blob and return the deserialized dict.
+
+        Returns None if the blob doesn't exist.
+        """
+        try:
+            blob = self.client.get_blob_client(
+                container=self.container_name, blob=blob_name)
+            raw = blob.download_blob().readall().decode("utf-8")
+            return json.loads(raw)
+        except ResourceNotFoundError:
+            return None
+        except (json.JSONDecodeError, AzureError) as e:
+            logger.warning("Failed to read JSON blob %s: %s", blob_name, e)
+            return None
+
     def read_raw_feed(self, feed_name: str) -> str | None:
         """Read the last-saved raw XML for a feed (useful for debugging)."""
         safe_name = feed_name.replace("/", "-").replace(" ", "_")
