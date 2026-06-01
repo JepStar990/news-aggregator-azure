@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Azure Functions
+.local/
+AzureWebJobsStorage/
+obj/
+bin/
+
+# Azurite
+~/.azurite/
+__azurite_*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Env
+local.settings.json
+.env
+
+# OS
+.DS_Store
+Thumbs.db
