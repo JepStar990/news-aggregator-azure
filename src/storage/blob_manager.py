@@ -2,7 +2,7 @@
 import json
 import logging
 from datetime import datetime, timezone
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Optional
 
 from azure.storage.blob import BlobServiceClient
 from azure.core.exceptions import ResourceNotFoundError, AzureError
